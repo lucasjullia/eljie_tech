@@ -96,23 +96,21 @@ In the event of a report via the “Flag” button or negative feedback (thumbs 
 
 
 
-| Purpose | Legal basis |
+Below are the purposes and legal bases for the processing of the collected data, in the format "**Purpose:** Legal basis:" :
 
-| :--- | :--- |
+* **User account creation and management:** Performance of the contract
 
-| User account creation and management | **Performance of a contract** |
+* **Management of paid subscriptions:** Performance of the contract
 
-| Management of paid subscriptions | **Performance of a contract** |
+* **Provision of sports-related and AI-generated content:** Performance of the contract
 
-| Provision of sports and AI-generated content | **Performance of a contract** |
+* **Moderation, security and abuse prevention:** Legitimate interest
 
-| Moderation, security and abuse prevention | **Legitimate interest** |
+* **Service improvement:** Legitimate interest
 
-| Service improvement | **Legitimate interest** |
+* **Display of personalised advertisements:** Consent
 
-| Display of personalized advertising | **Consent** |
-
-| Compliance with legal obligations | **Legal obligation** |
+* **Compliance with legal obligations:** Legal obligation
 
 
 

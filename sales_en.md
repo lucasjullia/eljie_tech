@@ -300,13 +300,26 @@ The Publisher shall not be held liable in the event of force majeure or events b
 
 In accordance with the provisions of the French Consumer Code relating to the consumer dispute mediation process, after having contacted us and in the absence of a response that satisfies you, you have the right to resort free of charge to a consumer mediation procedure with the following mediator:
 
+
 CM2C
+
 49 rue de Ponthieu
+
 75008 Paris
+
 France
+
 Telephone: +33 (0)1 89 47 00 14
+
 Website: https://www.cm2c.net/declarer-un-litige.php
+
 Email: litiges@cm2c.net
+
+
+In accordance with Article 14 of Regulation (EU) No 524/2013, consumers are informed of the existence of the European Online Dispute Resolution (ODR) platform, available at:
+
+https://consumer-redress.ec.europa.eu/index_en
+
 
 
 
