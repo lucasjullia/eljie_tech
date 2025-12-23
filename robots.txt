@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Emplacement du plan du site pour faciliter la découverte
+Sitemap: https://eljietech.fr/sitemap.xml
