@@ -1,0 +1,282 @@
+\# PRIVACY POLICY
+
+\*\*Last updated: December 23, 2025\*\*
+
+
+
+This Privacy Policy describes how the Publisher collects, uses and protects the personal data of users (hereinafter the “User”) of the mobile application \*\*FootcyclopedIA\*\* (hereinafter the “Application”), in accordance with Regulation (EU) 2016/679 (GDPR) and the French Data Protection Act (Loi Informatique et Libertés).
+
+
+
+---
+
+
+
+\## 1. IDENTITY OF THE DATA CONTROLLER
+
+The data controller is:
+
+
+
+\* \*\*Identity:\*\* Lucas JULLIA – EI  
+
+\* \*\*Trade name:\*\* Eljie Tech  
+
+\* \*\*Legal status:\*\* Sole Proprietorship (Micro-entrepreneur – France)  
+
+\* \*\*SIRET number:\*\* 99894819400019  
+
+\* \*\*Registered office:\*\* 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
+
+\* \*\*Email address:\*\* contact@eljietech.fr  
+
+\* \*\*📩 GDPR contact:\*\* contact@eljietech.fr  
+
+\* \*\*Tax notice:\*\* VAT not applicable pursuant to Article 293 B of the French Tax Code.
+
+
+
+---
+
+
+
+\## 2. PERSONAL DATA COLLECTED
+
+The Publisher collects only the personal data strictly necessary for the operation of the Application.
+
+
+
+\### 2.1 Account data
+
+\* Email address  
+
+\* Unique user identifier (via Firebase Authentication)
+
+
+
+\### 2.2 Transaction data
+
+\* Subscription type (Captain / Legend)  
+
+\* Payment status and transaction history (via RevenueCat)
+
+
+
+> \*\*⚠️ IMPORTANT:\*\* The Publisher never has access to users’ banking or payment card details, which are processed exclusively by the Apple App Store and Google Play Store.
+
+
+
+\### 2.3 AI usage data
+
+\* Conversations with the artificial intelligence are not stored by default on the Publisher’s servers.
+
+\* Certain requests may be temporarily processed by AI service providers in order to generate a response.
+
+
+
+\### 2.4 Moderation and security data
+
+In the event of a report via the “Flag” button or negative feedback (thumbs down), the reported message, the reason for the report and certain technical metadata may be retained for moderation, security and service improvement purposes.
+
+
+
+\### 2.5 Advertising data
+
+\* Advertising identifiers (IDFA / AAID)  
+
+\* Advertising consent-related data (via Google AdMob)
+
+
+
+---
+
+
+
+\## 3. PURPOSES AND LEGAL BASES OF PROCESSING
+
+
+
+| Purpose | Legal basis |
+
+| :--- | :--- |
+
+| User account creation and management | \*\*Performance of a contract\*\* |
+
+| Management of paid subscriptions | \*\*Performance of a contract\*\* |
+
+| Provision of sports and AI-generated content | \*\*Performance of a contract\*\* |
+
+| Moderation, security and abuse prevention | \*\*Legitimate interest\*\* |
+
+| Service improvement | \*\*Legitimate interest\*\* |
+
+| Display of personalized advertising | \*\*Consent\*\* |
+
+| Compliance with legal obligations | \*\*Legal obligation\*\* |
+
+
+
+---
+
+
+
+\## 4. THIRD-PARTY SERVICE PROVIDERS (DATA PROCESSORS)
+
+The Application relies on the following service providers:
+
+
+
+\* \*\*Hosting \& backend:\*\* Google Cloud Platform / Firebase  
+
+\* \*\*Authentication:\*\* Firebase Authentication  
+
+\* \*\*Payments \& subscriptions:\*\* RevenueCat  
+
+\* \*\*Advertising:\*\* Google AdMob  
+
+\* \*\*Artificial intelligence:\*\* DeepInfra (open-source models) and Google (Gemini 2.5 FlashLite)  
+
+\* \*\*Sports data:\*\* api-football.com (no personal data transmitted)
+
+
+
+Each provider acts as a data processor within the meaning of the GDPR and applies its own compliance and security measures.
+
+
+
+---
+
+
+
+\## 5. DATA TRANSFERS OUTSIDE THE EUROPEAN UNION
+
+Some service providers may process data outside the European Union (in particular in the United States). In such cases, the Publisher ensures that these transfers are governed by appropriate safeguards, such as:
+
+\* standard contractual clauses approved by the European Commission, or  
+
+\* other mechanisms recognized as providing an adequate level of protection.
+
+
+
+---
+
+
+
+\## 6. DATA RETENTION PERIODS
+
+\* \*\*Account data:\*\* retained for as long as the account remains active.  
+
+\* \*\*Transaction data:\*\* retained in accordance with legal obligations (up to 10 years).  
+
+\* \*\*Reports and moderation data:\*\* retained for up to 12 months after case closure.  
+
+\* \*\*Advertising data:\*\* retained according to the User’s consent settings.
+
+
+
+Users may request deletion of their data at any time.
+
+
+
+---
+
+
+
+\## 7. DATA SECURITY
+
+The Publisher implements appropriate technical and organizational measures to protect personal data, including:
+
+\* encryption of communications,  
+
+\* security protocols provided by Google Cloud Platform,  
+
+\* restricted access to data.
+
+
+
+---
+
+
+
+\## 8. USERS’ RIGHTS
+
+In accordance with the GDPR, Users have the following rights:
+
+\* Right of access, rectification and erasure.  
+
+\* Right to restriction of processing and right to object.  
+
+\* Right to data portability.
+
+
+
+📩 \*\*To exercise these rights:\*\* contact@eljietech.fr  
+
+Users also have the right to lodge a complaint with the \*\*CNIL\*\* (French Data Protection Authority).
+
+
+
+---
+
+
+
+\## 9. ADVERTISING, CONSENT AND COOKIES
+
+The Application uses a Google-certified Consent Management Platform (CMP) for users located in the European Economic Area. Users may accept or refuse personalized advertising and modify their choices at any time via the Application’s settings.
+
+
+
+---
+
+
+
+\## 10. ARTIFICIAL INTELLIGENCE – TRANSPARENCY AND LIABILITY
+
+Users are informed that they are interacting with an artificial intelligence system. The generated content:
+
+\* is provided for informational purposes only;  
+
+\* does not constitute professional advice or contractual information;  
+
+\* may contain errors despite the use of referenced data sources.
+
+
+
+The Publisher cannot be held liable for any consequences resulting from the use or interpretation of AI-generated responses. Any use aimed at producing illegal, hateful, defamatory or dangerous content is strictly prohibited.
+
+
+
+---
+
+
+
+\## 11. INTELLECTUAL PROPERTY
+
+The Application, its interface, algorithms, name and graphic elements are the exclusive property of the Publisher. Logos, club names and third-party trademarks are used strictly for descriptive purposes and remain the property of their respective rights holders.
+
+
+
+---
+
+
+
+\## 12. GOVERNING LAW AND JURISDICTION
+
+This Privacy Policy is governed by \*\*French law\*\*. In the event of a dispute, and after an attempt at amicable resolution, the French courts shall have exclusive jurisdiction.
+
+
+
+---
+
+
+
+\## 13. LANGUAGE AND PREVAILING VERSION
+
+This Privacy Policy is originally drafted in French and may be translated into English for informational purposes only.
+
+
+
+In the event of any discrepancy or inconsistency between the French version and any translated version, \*\*the French version shall prevail\*\*.
+
+
+
