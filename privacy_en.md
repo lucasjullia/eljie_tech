@@ -96,7 +96,7 @@ In the event of a report via the “Flag” button or negative feedback (thumbs 
 
 
 
-Below are the purposes and legal bases for the processing of the collected data, in the format "**Purpose:** Legal basis:" :
+Below are the purposes and legal bases for the processing of the collected data, in the format "**Purpose:** Legal basis" :
 
 * **User account creation and management:** Performance of the contract
 
