@@ -1,10 +1,10 @@
-\# PRIVACY POLICY
+# PRIVACY POLICY
 
-\*\*Last updated: December 23, 2025\*\*
+**Last updated: December 23, 2025**
 
 
 
-This Privacy Policy describes how the Publisher collects, uses and protects the personal data of users (hereinafter the “User”) of the mobile application \*\*FootcyclopedIA\*\* (hereinafter the “Application”), in accordance with Regulation (EU) 2016/679 (GDPR) and the French Data Protection Act (Loi Informatique et Libertés).
+This Privacy Policy describes how the Publisher collects, uses and protects the personal data of users (hereinafter the “User”) of the mobile application **FootcyclopedIA** (hereinafter the “Application”), in accordance with Regulation (EU) 2016/679 (GDPR) and the French Data Protection Act (Loi Informatique et Libertés).
 
 
 
@@ -12,27 +12,27 @@ This Privacy Policy describes how the Publisher collects, uses and protects the 
 
 
 
-\## 1. IDENTITY OF THE DATA CONTROLLER
+## 1. IDENTITY OF THE DATA CONTROLLER
 
 The data controller is:
 
 
 
-\* \*\*Identity:\*\* Lucas JULLIA – EI  
+* **Identity:** Lucas JULLIA – EI  
 
-\* \*\*Trade name:\*\* Eljie Tech  
+* **Trade name:** Eljie Tech  
 
-\* \*\*Legal status:\*\* Sole Proprietorship (Micro-entrepreneur – France)  
+* **Legal status:** Sole Proprietorship (Micro-entrepreneur – France)  
 
-\* \*\*SIRET number:\*\* 99894819400019  
+* **SIRET number:** 99894819400019  
 
-\* \*\*Registered office:\*\* 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
+* **Registered office:** 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
 
-\* \*\*Email address:\*\* contact@eljietech.fr  
+* **Email address:** contact@eljietech.fr  
 
-\* \*\*📩 GDPR contact:\*\* contact@eljietech.fr  
+* **📩 GDPR contact:** contact@eljietech.fr  
 
-\* \*\*Tax notice:\*\* VAT not applicable pursuant to Article 293 B of the French Tax Code.
+* **Tax notice:** VAT not applicable pursuant to Article 293 B of the French Tax Code.
 
 
 
@@ -40,51 +40,51 @@ The data controller is:
 
 
 
-\## 2. PERSONAL DATA COLLECTED
+## 2. PERSONAL DATA COLLECTED
 
 The Publisher collects only the personal data strictly necessary for the operation of the Application.
 
 
 
-\### 2.1 Account data
+### 2.1 Account data
 
-\* Email address  
+* Email address  
 
-\* Unique user identifier (via Firebase Authentication)
-
-
-
-\### 2.2 Transaction data
-
-\* Subscription type (Captain / Legend)  
-
-\* Payment status and transaction history (via RevenueCat)
+* Unique user identifier (via Firebase Authentication)
 
 
 
-> \*\*⚠️ IMPORTANT:\*\* The Publisher never has access to users’ banking or payment card details, which are processed exclusively by the Apple App Store and Google Play Store.
+### 2.2 Transaction data
+
+* Subscription type (Captain / Legend)  
+
+* Payment status and transaction history (via RevenueCat)
 
 
 
-\### 2.3 AI usage data
-
-\* Conversations with the artificial intelligence are not stored by default on the Publisher’s servers.
-
-\* Certain requests may be temporarily processed by AI service providers in order to generate a response.
+> **⚠️ IMPORTANT:** The Publisher never has access to users’ banking or payment card details, which are processed exclusively by the Apple App Store and Google Play Store.
 
 
 
-\### 2.4 Moderation and security data
+### 2.3 AI usage data
+
+* Conversations with the artificial intelligence are not stored by default on the Publisher’s servers.
+
+* Certain requests may be temporarily processed by AI service providers in order to generate a response.
+
+
+
+### 2.4 Moderation and security data
 
 In the event of a report via the “Flag” button or negative feedback (thumbs down), the reported message, the reason for the report and certain technical metadata may be retained for moderation, security and service improvement purposes.
 
 
 
-\### 2.5 Advertising data
+### 2.5 Advertising data
 
-\* Advertising identifiers (IDFA / AAID)  
+* Advertising identifiers (IDFA / AAID)  
 
-\* Advertising consent-related data (via Google AdMob)
+* Advertising consent-related data (via Google AdMob)
 
 
 
@@ -92,7 +92,7 @@ In the event of a report via the “Flag” button or negative feedback (thumbs 
 
 
 
-\## 3. PURPOSES AND LEGAL BASES OF PROCESSING
+## 3. PURPOSES AND LEGAL BASES OF PROCESSING
 
 
 
@@ -100,19 +100,19 @@ In the event of a report via the “Flag” button or negative feedback (thumbs 
 
 | :--- | :--- |
 
-| User account creation and management | \*\*Performance of a contract\*\* |
+| User account creation and management | **Performance of a contract** |
 
-| Management of paid subscriptions | \*\*Performance of a contract\*\* |
+| Management of paid subscriptions | **Performance of a contract** |
 
-| Provision of sports and AI-generated content | \*\*Performance of a contract\*\* |
+| Provision of sports and AI-generated content | **Performance of a contract** |
 
-| Moderation, security and abuse prevention | \*\*Legitimate interest\*\* |
+| Moderation, security and abuse prevention | **Legitimate interest** |
 
-| Service improvement | \*\*Legitimate interest\*\* |
+| Service improvement | **Legitimate interest** |
 
-| Display of personalized advertising | \*\*Consent\*\* |
+| Display of personalized advertising | **Consent** |
 
-| Compliance with legal obligations | \*\*Legal obligation\*\* |
+| Compliance with legal obligations | **Legal obligation** |
 
 
 
@@ -120,23 +120,23 @@ In the event of a report via the “Flag” button or negative feedback (thumbs 
 
 
 
-\## 4. THIRD-PARTY SERVICE PROVIDERS (DATA PROCESSORS)
+## 4. THIRD-PARTY SERVICE PROVIDERS (DATA PROCESSORS)
 
 The Application relies on the following service providers:
 
 
 
-\* \*\*Hosting \& backend:\*\* Google Cloud Platform / Firebase  
+* **Hosting & backend:** Google Cloud Platform / Firebase  
 
-\* \*\*Authentication:\*\* Firebase Authentication  
+* **Authentication:** Firebase Authentication  
 
-\* \*\*Payments \& subscriptions:\*\* RevenueCat  
+* **Payments & subscriptions:** RevenueCat  
 
-\* \*\*Advertising:\*\* Google AdMob  
+* **Advertising:** Google AdMob  
 
-\* \*\*Artificial intelligence:\*\* DeepInfra (open-source models) and Google (Gemini 2.5 FlashLite)  
+* **Artificial intelligence:** DeepInfra (open-source models) and Google (Gemini 2.5 FlashLite)  
 
-\* \*\*Sports data:\*\* api-football.com (no personal data transmitted)
+* **Sports data:** api-football.com (no personal data transmitted)
 
 
 
@@ -148,13 +148,13 @@ Each provider acts as a data processor within the meaning of the GDPR and applie
 
 
 
-\## 5. DATA TRANSFERS OUTSIDE THE EUROPEAN UNION
+## 5. DATA TRANSFERS OUTSIDE THE EUROPEAN UNION
 
 Some service providers may process data outside the European Union (in particular in the United States). In such cases, the Publisher ensures that these transfers are governed by appropriate safeguards, such as:
 
-\* standard contractual clauses approved by the European Commission, or  
+* standard contractual clauses approved by the European Commission, or  
 
-\* other mechanisms recognized as providing an adequate level of protection.
+* other mechanisms recognized as providing an adequate level of protection.
 
 
 
@@ -162,15 +162,15 @@ Some service providers may process data outside the European Union (in particula
 
 
 
-\## 6. DATA RETENTION PERIODS
+## 6. DATA RETENTION PERIODS
 
-\* \*\*Account data:\*\* retained for as long as the account remains active.  
+* **Account data:** retained for as long as the account remains active.  
 
-\* \*\*Transaction data:\*\* retained in accordance with legal obligations (up to 10 years).  
+* **Transaction data:** retained in accordance with legal obligations (up to 10 years).  
 
-\* \*\*Reports and moderation data:\*\* retained for up to 12 months after case closure.  
+* **Reports and moderation data:** retained for up to 12 months after case closure.  
 
-\* \*\*Advertising data:\*\* retained according to the User’s consent settings.
+* **Advertising data:** retained according to the User’s consent settings.
 
 
 
@@ -182,15 +182,15 @@ Users may request deletion of their data at any time.
 
 
 
-\## 7. DATA SECURITY
+## 7. DATA SECURITY
 
 The Publisher implements appropriate technical and organizational measures to protect personal data, including:
 
-\* encryption of communications,  
+* encryption of communications,  
 
-\* security protocols provided by Google Cloud Platform,  
+* security protocols provided by Google Cloud Platform,  
 
-\* restricted access to data.
+* restricted access to data.
 
 
 
@@ -198,21 +198,21 @@ The Publisher implements appropriate technical and organizational measures to pr
 
 
 
-\## 8. USERS’ RIGHTS
+## 8. USERS’ RIGHTS
 
 In accordance with the GDPR, Users have the following rights:
 
-\* Right of access, rectification and erasure.  
+* Right of access, rectification and erasure.  
 
-\* Right to restriction of processing and right to object.  
+* Right to restriction of processing and right to object.  
 
-\* Right to data portability.
+* Right to data portability.
 
 
 
-📩 \*\*To exercise these rights:\*\* contact@eljietech.fr  
+📩 **To exercise these rights:** contact@eljietech.fr  
 
-Users also have the right to lodge a complaint with the \*\*CNIL\*\* (French Data Protection Authority).
+Users also have the right to lodge a complaint with the **CNIL** (French Data Protection Authority).
 
 
 
@@ -220,7 +220,7 @@ Users also have the right to lodge a complaint with the \*\*CNIL\*\* (French Dat
 
 
 
-\## 9. ADVERTISING, CONSENT AND COOKIES
+## 9. ADVERTISING, CONSENT AND COOKIES
 
 The Application uses a Google-certified Consent Management Platform (CMP) for users located in the European Economic Area. Users may accept or refuse personalized advertising and modify their choices at any time via the Application’s settings.
 
@@ -230,15 +230,15 @@ The Application uses a Google-certified Consent Management Platform (CMP) for us
 
 
 
-\## 10. ARTIFICIAL INTELLIGENCE – TRANSPARENCY AND LIABILITY
+## 10. ARTIFICIAL INTELLIGENCE – TRANSPARENCY AND LIABILITY
 
 Users are informed that they are interacting with an artificial intelligence system. The generated content:
 
-\* is provided for informational purposes only;  
+* is provided for informational purposes only;  
 
-\* does not constitute professional advice or contractual information;  
+* does not constitute professional advice or contractual information;  
 
-\* may contain errors despite the use of referenced data sources.
+* may contain errors despite the use of referenced data sources.
 
 
 
@@ -250,7 +250,7 @@ The Publisher cannot be held liable for any consequences resulting from the use 
 
 
 
-\## 11. INTELLECTUAL PROPERTY
+## 11. INTELLECTUAL PROPERTY
 
 The Application, its interface, algorithms, name and graphic elements are the exclusive property of the Publisher. Logos, club names and third-party trademarks are used strictly for descriptive purposes and remain the property of their respective rights holders.
 
@@ -260,9 +260,9 @@ The Application, its interface, algorithms, name and graphic elements are the ex
 
 
 
-\## 12. GOVERNING LAW AND JURISDICTION
+## 12. GOVERNING LAW AND JURISDICTION
 
-This Privacy Policy is governed by \*\*French law\*\*. In the event of a dispute, and after an attempt at amicable resolution, the French courts shall have exclusive jurisdiction.
+This Privacy Policy is governed by **French law**. In the event of a dispute, and after an attempt at amicable resolution, the French courts shall have exclusive jurisdiction.
 
 
 
@@ -270,13 +270,13 @@ This Privacy Policy is governed by \*\*French law\*\*. In the event of a dispute
 
 
 
-\## 13. LANGUAGE AND PREVAILING VERSION
+## 13. LANGUAGE AND PREVAILING VERSION
 
 This Privacy Policy is originally drafted in French and may be translated into English for informational purposes only.
 
 
 
-In the event of any discrepancy or inconsistency between the French version and any translated version, \*\*the French version shall prevail\*\*.
+In the event of any discrepancy or inconsistency between the French version and any translated version, **the French version shall prevail**.
 
 
 
