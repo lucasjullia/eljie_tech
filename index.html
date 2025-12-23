@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eljie Tech | FootcyclopedIA</title>
+    <link rel="icon" type="image/png" href="logo_onglet.png">
+    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -83,7 +85,6 @@
             color: #d1d1d1; max-height: 800px; overflow-y: auto; box-shadow: 0 20px 40px rgba(0,0,0,0.4); margin-bottom: 40px;
         }
 
-        /* Style spécifique pour le rendu Markdown */
         .text-display h1, .text-display h2, .text-display h3 { color: var(--light-text); margin: 1.5em 0 0.8em; }
         .text-display p { margin-bottom: 1em; line-height: 1.8; }
         .text-display ul, .text-display ol { margin: 1em 0 1em 1.5em; }
@@ -155,7 +156,6 @@
             </div>
         </div>
     </div>
-
     <div id="doc-viewer" class="text-display"></div>
 </div>
 
@@ -170,7 +170,7 @@
         </div>
         <div class="legal-notices">
             <span class="copyright-text">&copy; 2025 Eljie Tech. <span id="footer-rights">Tous droits réservés.</span></span>
-            <span class="ei-mention">Lucas JULLIA - EI</span>
+            <span class="ei-mention">Lucas JULLIA EI</span>
             <span class="acc-text" id="footer-acc">Accessibilité : non conforme</span>
         </div>
     </div>
@@ -213,7 +213,6 @@
 
     async function loadDoc(type) {
         const viewer = document.getElementById('doc-viewer');
-        // Changement d'extension en .md
         const fileMap = {
             'privacy': currentLang === 'fr' ? 'privacy_fr.md' : 'privacy_en.md',
             'cgu': currentLang === 'fr' ? 'cgu_fr.md' : 'tos_en.md',
@@ -230,14 +229,20 @@
         try {
             const response = await fetch(fileMap[type]);
             if (!response.ok) throw new Error('File not found');
-            const markdown = await response.text();
+            const markdownText = await response.text();
             
-            // On utilise Marked.js pour transformer le Markdown en HTML
-            viewer.innerHTML = marked.parse(markdown);
+            // Correction pour utiliser marked.parse()
+            if (typeof marked !== 'undefined') {
+                marked.setOptions({ breaks: true, gfm: true });
+                viewer.innerHTML = marked.parse(markdownText);
+            } else {
+                viewer.innerText = markdownText;
+            }
             
             viewer.style.display = 'block';
             viewer.scrollIntoView({behavior: "smooth", block: "start"});
         } catch (err) {
+            console.error(err);
             viewer.innerHTML = currentLang === 'fr' ? "<p>Document en cours de mise à jour...</p>" : "<p>Document being updated...</p>";
             viewer.style.display = 'block';
         }
