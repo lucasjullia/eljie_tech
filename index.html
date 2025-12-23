@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="logo_onglet.png">
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"></script>
     <style>
         :root {
             --primary-pink: #f432a5;
@@ -231,10 +231,9 @@
             if (!response.ok) throw new Error('File not found');
             const markdownText = await response.text();
             
-            // Correction pour utiliser marked.parse()
-            if (typeof marked !== 'undefined') {
-                marked.setOptions({ breaks: true, gfm: true });
-                viewer.innerHTML = marked.parse(markdownText);
+            // On utilise window.marked.parse pour la version UMD
+            if (window.marked && window.marked.parse) {
+                viewer.innerHTML = window.marked.parse(markdownText);
             } else {
                 viewer.innerText = markdownText;
             }
