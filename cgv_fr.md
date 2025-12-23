@@ -281,12 +281,24 @@ La responsabilité de l’Éditeur ne pourra être engagée en cas d’événeme
 ## 13. MÉDIATION DE LA CONSOMMATION
 
 Conformément aux dispositions du Code de la consommation concernant « le processus de médiation des litiges de la consommation », après nous avoir sollicités et à défaut de réponse vous satisfaisant, vous avez la possibilité de recourir gratuitement à une procédure de médiation de la consommation auprès de :
+
 CM2C
+
 49 rue de Ponthieu
+
 75 008 PARIS
+
 Tel : 01 89 47 00 14
+
 Site internet : https://www.cm2c.net/declarer-un-litige.php
+
 Mail : litiges@cm2c.net
+
+
+Conformément à l’article 14 du règlement (UE) n°524/2013, le consommateur est informé de l’existence de la plateforme européenne de règlement en ligne des litiges (RLL), accessible à l’adresse suivante :
+
+https://consumer-redress.ec.europa.eu/index_fr
+
 
 
 

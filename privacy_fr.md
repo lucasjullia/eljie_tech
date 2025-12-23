@@ -94,25 +94,21 @@ En cas de signalement via le bouton « Flag » ou de feedback négatif (pouce ve
 
 ## 3. FINALITÉS ET BASES LÉGALES DES TRAITEMENTS
 
+Ci-dessous se trouvent la finalité et la base légale des données collectées, au format "**Finalité :** Base légale :
 
+* **Création et gestion du compte utilisateur :** Exécution du contrat
 
-| Finalité | Base légale |
+* **Gestion des abonnements payants :** Exécution du contrat
 
-| :--- | :--- |
+* **Fourniture du contenu sportif et IA :** Exécution du contrat
 
-| Création et gestion du compte utilisateur | **Exécution du contrat** |
+* **Modération, sécurité, prévention des abus :** Intérêt légitime
 
-| Gestion des abonnements payants | **Exécution du contrat** |
+* **Amélioration du service :** Intérêt légitime
 
-| Fourniture du contenu sportif et IA | **Exécution du contrat** |
+* **Affichage de publicités personnalisées :** Consentement
 
-| Modération, sécurité, prévention des abus | **Intérêt légitime** |
-
-| Amélioration du service | **Intérêt légitime** |
-
-| Affichage de publicités personnalisées | **Consentement** |
-
-| Respect des obligations légales | **Obligation légale** |
+* **Respect des obligations légales :** Obligation légale
 
 
 
