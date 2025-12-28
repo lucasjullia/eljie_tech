@@ -80,6 +80,8 @@ L’Application propose un assistant conversationnel basé sur l’intelligence 
 
 * de modèles d’IA exploités via des prestataires externes.
 
+L'Application inclut un service de notifications push destiné à informer l'Utilisateur de la disponibilité de ses quotas quotidiens ou de l'actualité sportive marquante. Ce service vise à faciliter l'engagement de l'Utilisateur avec l'assistant conversationnel.
+
 
 
 ---
@@ -217,6 +219,8 @@ L’Application est fournie « en l’état », sans garantie de disponibilité 
 * des pertes indirectes (perte de chance, financière ou de données) ;
 
 * des interruptions liées aux prestataires techniques.
+
+L’Éditeur ne garantit pas la délivrance systématique des notifications push, celle-ci dépendant de la disponibilité des réseaux de communication, des services tiers (Google, Apple) et des réglages de l'appareil de l'Utilisateur. Un retard ou une absence de notification ne saurait constituer un manquement de l'Éditeur à ses obligations.
 
 
 

@@ -52,6 +52,8 @@ L’Éditeur collecte uniquement les données strictement nécessaires au foncti
 
 * Identifiant utilisateur unique (via Firebase Authentication)
 
+* Jetons de notification (FCM Tokens) : identifiants techniques uniques générés par le service Firebase Cloud Messaging permettant l'envoi de messages de service et d'informations sur l'appareil de l'Utilisateur
+
 
 
 ### 2.2 Données de transaction
@@ -109,6 +111,10 @@ Ci-dessous se trouvent la finalité et la base légale des données collectées,
 * **Affichage de publicités personnalisées :** Consentement
 
 * **Respect des obligations légales :** Obligation légale
+
+* **Envoi de notifications de service (réinitialisation des quotas) :** Exécution du contrat
+
+* **Envoi de notifications d'actualité (événements sportifs) :** Consentement
 
 
 
@@ -219,6 +225,8 @@ L’Utilisateur peut également introduire une réclamation auprès de la **CNIL
 ## 9. PUBLICITÉ, CONSENTEMENT ET COOKIES
 
 L’Application utilise une plateforme de gestion du consentement (CMP) certifiée par Google pour les utilisateurs de l’Espace Économique Européen. L’Utilisateur peut accepter ou refuser la publicité personnalisée et modifier ses choix à tout moment depuis les paramètres de l’Application.
+
+L’Utilisateur peut choisir de recevoir des notifications push lors du premier lancement de l'Application ou ultérieurement via les paramètres de son appareil ou de l'Application. L’Utilisateur dispose de la faculté de distinguer les alertes de service (quotas) des alertes d'actualité (événements) et peut retirer son consentement à tout moment.
 
 
 

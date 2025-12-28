@@ -80,6 +80,8 @@ The backend infrastructure of the Application is hosted by:
 
 In accordance with the LCEN, the hosting provider ensures the storage of technical data and cannot be held liable for content published or generated within the Application.
 
+The technical infrastructure includes Firebase Cloud Messaging services for the management and delivery of push notifications.
+
 
 
 ---
