@@ -80,6 +80,9 @@ The Application provides an AI-powered conversational assistant specialized in f
 
 * AI models operated through external service providers.
 
+The Application includes a push notification service intended to inform the User of the availability of their daily usage quotas and of significant sports-related events.
+This service is designed to facilitate User engagement with the conversational assistant and the Application’s features.
+
 
 
 ---
@@ -217,6 +220,9 @@ The Application is provided “as is,” without any guarantee of continuous ava
 * indirect losses (loss of opportunity, financial loss or loss of data);
 
 * interruptions related to technical service providers.
+
+The Publisher does not guarantee the systematic or uninterrupted delivery of push notifications. The receipt of such notifications depends on the availability of communication networks, third-party services (including Google and Apple), and the configuration of the User’s device.
+Any delay, failure, or absence of notification shall not constitute a breach of the Publisher’s contractual obligations.
 
 
 

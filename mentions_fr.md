@@ -80,6 +80,7 @@ Le backend de l'Application est hébergé par :
 
 Conformément à la LCEN, l’hébergeur assure le stockage des données techniques et ne saurait être tenu responsable des contenus publiés ou générés au sein de l’Application.
 
+L’infrastructure inclut les services Firebase Cloud Messaging pour la gestion des notifications.
 
 
 ---
