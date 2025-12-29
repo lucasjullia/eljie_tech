@@ -1,6 +1,6 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 23 décembre 2025**
+**Dernière mise à jour : 30 décembre 2025**
 
 
 
@@ -52,7 +52,14 @@ L’Éditeur collecte uniquement les données strictement nécessaires au foncti
 
 * Identifiant utilisateur unique (via Firebase Authentication)
 
+* Pseudo choisi par l'Utilisateur lors de l'inscription
+
 * Jetons de notification (FCM Tokens) : identifiants techniques uniques générés par le service Firebase Cloud Messaging permettant l'envoi de messages de service et d'informations sur l'appareil de l'Utilisateur
+
+* Certaines données (nom, photo de profil, numéro de téléphone) peuvent être transmises à l’Éditeur lorsque l’Utilisateur choisit de s’inscrire via un fournisseur d’authentification tiers (Google, Apple)
+
+* Préférences utilisateur : langue, paramètres de notifications, choix relatifs à l’expérience utilisateur
+
 
 
 
@@ -82,11 +89,16 @@ En cas de signalement via le bouton « Flag » ou de feedback négatif (pouce ve
 
 
 
-### 2.5 Données de modération et de sécurité
+### 2.5 Données publicitaires
 
 * Identifiant publicitaire (IDFA / AAID)
 
 * Données liées au consentement publicitaire (via Google AdMob)
+
+
+### 2.6 Données de conformité
+
+* Date et horodatage de l’acceptation des Conditions Générales d’Utilisation et de la prise de connaissance de la Politique de Confidentialité.
 
 
 
