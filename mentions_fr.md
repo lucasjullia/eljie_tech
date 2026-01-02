@@ -1,6 +1,6 @@
 # MENTIONS LÉGALES
 
-**En vigueur au 23 décembre 2025**
+**En vigueur au 02 janvier 2026**
 
 
 
@@ -24,7 +24,7 @@ L’édition et la direction de la publication du Site et de l’Application son
 
 * **Statut juridique :** Entrepreneur Individuel (Micro-entrepreneur)
 
-* **Numéro SIRET :** 99894819400019
+* **Numéro SIRET :** 99927439200011
 
 * **Siège social :** 31 RUE DE SAINTONGE 75003 PARIS FRANCE
 

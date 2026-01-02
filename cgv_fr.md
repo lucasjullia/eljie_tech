@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES DE VENTE (CGV)
 
-**Dernière mise à jour : 23 décembre 2025**
+**Dernière mise à jour : 02 janvier 2026**
 
 
 
@@ -26,7 +26,7 @@ Les ventes sont conclues entre :
 
 * **Statut :** Entrepreneur Individuel (Micro-entrepreneur)
 
-* **SIRET :** 99894819400019
+* **SIRET :** 99927439200011
 
 * **Siège social :** 31 RUE DE SAINTONGE 75003 PARIS FRANCE
 

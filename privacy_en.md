@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 
-**Last updated: December 30, 2025**
+**Last updated: January 02, 2026**
 
 
 
@@ -24,7 +24,7 @@ The data controller is:
 
 * **Legal status:** Sole Proprietorship (Micro-entrepreneur – France)  
 
-* **SIRET number:** 99894819400019  
+* **SIRET number:** 99927439200011
 
 * **Registered office:** 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
 

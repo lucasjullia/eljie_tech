@@ -1,6 +1,6 @@
 # GENERAL TERMS AND CONDITIONS OF SALE (GTC)
 
-**Last updated: December 23, 2025**
+**Last updated: January 02, 2026**
 
 
 
@@ -28,7 +28,7 @@ Sales are concluded between:
 
 * **Legal status:** Individual Entrepreneur (Micro-entrepreneur)
 
-* **SIRET:** 99894819400019
+* **SIRET:** 99927439200011
 
 * **Registered office:** 31 Rue de Saintonge, 75003 Paris, France
 

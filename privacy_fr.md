@@ -1,6 +1,6 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 30 décembre 2025**
+**Dernière mise à jour : 02 janvier 2026**
 
 
 
@@ -24,7 +24,7 @@ Le responsable du traitement des données est :
 
 * **Statut juridique :** Entrepreneur Individuel (Micro-entrepreneur)
 
-* **Numéro SIRET :** 99894819400019
+* **Numéro SIRET :** 99927439200011
 
 * **Siège social :** 31 RUE DE SAINTONGE 75003 PARIS FRANCE
 

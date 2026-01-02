@@ -1,6 +1,6 @@
 # LEGAL NOTICE
 
-**Effective as of December 23, 2025**
+**Effective as of January 02, 2026**
 
 
 
@@ -24,7 +24,7 @@ The website and the Application are published and managed by:
 
 * **Legal status:** Sole Proprietorship (Micro-entrepreneur – France)  
 
-* **SIRET number:** 99894819400019  
+* **SIRET number:** 99927439200011 
 
 * **Registered office:** 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
 

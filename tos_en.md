@@ -1,6 +1,6 @@
 # TERMS AND CONDITIONS OF USE (TCU)
 
-**Last updated: December 23, 2025**
+**Last updated: January 02, 2026**
 
 
 
