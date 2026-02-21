@@ -1,10 +1,10 @@
 # GENERAL TERMS AND CONDITIONS OF SALE (GTC)
 
-**Last updated: January 02, 2026**
+**Last updated: February 21, 2026**
 
 
 
-These General Terms and Conditions of Sale (hereinafter the “GTC”) govern the sale of digital content and services carried out within the **FootcyclopedIA** mobile application (hereinafter the “Application”).
+These General Terms and Conditions of Sale (hereinafter the “GTC”) govern the sale of digital content and services carried out within the **Ask TikiStata** mobile application (hereinafter the “Application”).
 
 
 
@@ -29,6 +29,7 @@ Sales are concluded between:
 * **Legal status:** Individual Entrepreneur (Micro-entrepreneur)
 
 * **SIRET:** 99927439200011
+* **DUNS number:** 285865545
 
 * **Registered office:** 31 Rue de Saintonge, 75003 Paris, France
 

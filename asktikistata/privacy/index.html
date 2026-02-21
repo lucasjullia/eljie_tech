@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Politique de confidentialité de Ask TikiStata">
+    <title>Politique de confidentialité | Ask TikiStata</title>
+    <link rel="icon" type="image/png" href="../../favicon-96x96.png">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/lib/marked.min.js"></script>
+    <style>
+        :root {
+            --primary-pink: #f432a5;
+            --primary-purple: #8b30c1;
+            --deep-indigo: #1a1a2e;
+            --dark-bg: #050508;
+            --light-text: #f4f4f9;
+            --gradient-border: linear-gradient(135deg, var(--primary-pink) 0%, var(--primary-purple) 30%, #4f46e5 100%);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Roboto, sans-serif; }
+        body { background-color: var(--dark-bg); color: var(--light-text); line-height: 1.6; overflow-x: hidden; }
+
+        header {
+            padding: 15px 5%; display: flex; justify-content: space-between; align-items: center;
+            background: rgba(5, 5, 8, 0.9); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .logo a { font-weight: bold; font-size: 1.4rem; letter-spacing: 1px; color: white; text-decoration: none; }
+        
+        .lang-switch { display: flex; gap: 8px; }
+        .lang-btn { 
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(139, 48, 193, 0.3); color: white; 
+            padding: 6px 14px; cursor: pointer; border-radius: 8px; font-size: 0.8rem; transition: 0.3s;
+        }
+        .lang-btn.active { background: var(--gradient-border); border: none; box-shadow: 0 0 15px rgba(244, 50, 165, 0.3); }
+
+        .main-content { padding: 20px 5% 60px; max-width: 1400px; margin: 0 auto; }
+
+        /* Viewer Area avec Style Markdown */
+        .text-display {
+            width: 100%; padding: 50px; background: rgba(26, 26, 46, 0.3); 
+            border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.05);
+            color: #d1d1d1; box-shadow: 0 20px 40px rgba(0,0,0,0.4); margin-top: 40px; margin-bottom: 40px;
+        }
+
+        .text-display h1, .text-display h2, .text-display h3 { color: var(--light-text); margin: 1.5em 0 0.8em; }
+        .text-display p { margin-bottom: 1em; line-height: 1.8; }
+        .text-display ul, .text-display ol { margin: 1em 0 1em 1.5em; }
+        .text-display li { margin-bottom: 0.5em; }
+        .text-display strong { color: #ffffff; }
+        .text-display hr { border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 2em 0; }
+
+        footer { padding: 60px 5%; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); background: #030305; }
+        .footer-brand { font-size: 1.8rem; font-weight: 800; margin-bottom: 10px; display: block; color: var(--light-text); text-decoration: none; }
+        
+        .legal-notices { color: #444; margin-top: 30px; line-height: 1.6; }
+        .copyright-text { font-size: 0.8rem; display: block; margin-bottom: 4px; }
+
+        @media (max-width: 768px) {
+            .text-display { padding: 25px; }
+            .footer-brand { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo"><a href="../"><i class="fas fa-arrow-left" style="margin-right: 10px; font-size: 1rem;"></i>Ask TikiStata</a></div>
+    <div class="lang-switch">
+        <button class="lang-btn active" id="btn-fr" onclick="setLang('fr')">FR</button>
+        <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
+</header>
+
+<div class="main-content">
+    <div id="doc-viewer" class="text-display"><p>Chargement du document...</p></div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <a href="../../" class="footer-brand">ELJIE TECH</a>
+        <div class="legal-notices">
+            <span class="copyright-text">&copy; 2025 Eljie Tech. <span id="footer-rights">Tous droits réservés.</span></span>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let currentLang = 'fr';
+    const docs = {
+        fr: "../../privacy_fr.md",
+        en: "../../privacy_en.md"
+    };
+    const titles = {
+        fr: "Politique de confidentialité",
+        en: "Privacy Policy"
+    };
+    const rights = {
+        fr: "Tous droits réservés.",
+        en: "All rights reserved."
+    };
+    const loadingTexts = {
+        fr: "<p>Chargement du document...</p>",
+        en: "<p>Loading document...</p>"
+    };
+
+    function setLang(lang) {
+        currentLang = lang;
+        document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('btn-' + lang).classList.add('active');
+        document.querySelector('html').lang = lang;
+        document.title = titles[lang] + " | Ask TikiStata";
+        document.getElementById('footer-rights').innerText = rights[lang];
+        loadDoc();
+    }
+
+    async function loadDoc() {
+        const viewer = document.getElementById('doc-viewer');
+        viewer.innerHTML = loadingTexts[currentLang];
+        try {
+            const response = await fetch(docs[currentLang]);
+            if (!response.ok) throw new Error('File not found');
+            const markdownText = await response.text();
+            
+            if (window.marked && window.marked.parse) {
+                viewer.innerHTML = window.marked.parse(markdownText);
+            } else {
+                viewer.innerText = markdownText;
+            }
+        } catch (err) {
+            console.error(err);
+            viewer.innerHTML = currentLang === 'fr' ? "<p>Document en cours de mise à jour...</p>" : "<p>Document being updated...</p>";
+        }
+    }
+
+    window.addEventListener('DOMContentLoaded', loadDoc);
+</script>
+
+</body>
+</html>

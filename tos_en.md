@@ -1,10 +1,10 @@
 # TERMS AND CONDITIONS OF USE (TCU)
 
-**Last updated: January 02, 2026**
+**Last updated: February 21, 2026**
 
 
 
-These Terms and Conditions of Use (hereinafter the “TCU”) define the terms of access to and use of the mobile application **FootcyclopedIA** (hereinafter the “Application”), published by **Lucas JULLIA – EI / Eljie Tech** (hereinafter the “Publisher”).
+These Terms and Conditions of Use (hereinafter the “TCU”) define the terms of access to and use of the mobile application **Ask TikiStata** (hereinafter the “Application”), published by **Lucas JULLIA – EI / Eljie Tech** (hereinafter the “Publisher”).
 
 
 
@@ -18,7 +18,7 @@ For the purposes of these TCU, the following terms shall have the meanings set o
 
 
 
-* **Application:** the FootcyclopedIA mobile application and all of its features.
+* **Application:** the Ask TikiStata mobile application and all of its features.
 
 * **User:** any natural person accessing the Application.
 

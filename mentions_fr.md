@@ -1,10 +1,10 @@
 # MENTIONS LÉGALES
 
-**En vigueur au 02 janvier 2026**
+**En vigueur au 21 février 2026**
 
 
 
-Conformément aux dispositions des articles 6-III et 19 de la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’Économie Numérique (LCEN), il est porté à la connaissance des utilisateurs du site internet **eljietech.fr** et de l’application mobile **FootcyclopedIA** les présentes mentions légales.
+Conformément aux dispositions des articles 6-III et 19 de la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’Économie Numérique (LCEN), il est porté à la connaissance des utilisateurs du site internet **eljietech.fr** et de l’application mobile **Ask TikiStata** les présentes mentions légales.
 
 
 
@@ -25,6 +25,7 @@ L’édition et la direction de la publication du Site et de l’Application son
 * **Statut juridique :** Entrepreneur Individuel (Micro-entrepreneur)
 
 * **Numéro SIRET :** 99927439200011
+* **Numéro DUNS :** 285865545
 
 * **Siège social :** 31 RUE DE SAINTONGE 75003 PARIS FRANCE
 
@@ -66,7 +67,7 @@ Le Site est hébergé par :
 
 
 
-### 3.2 Hébergement de l'Application (FootcyclopedIA)
+### 3.2 Hébergement de l'Application (Ask TikiStata)
 
 Le backend de l'Application est hébergé par :
 

@@ -1,5 +1,28 @@
 User-agent: *
 Allow: /
 
-# Emplacement du plan du site pour faciliter la découverte
+# Expliciter l'autorisation aux robots des grandes IAs (ChatGPT, Claude, Gemini, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Emplacement du plan du site pour faciliter la decouverte classique
 Sitemap: https://eljietech.fr/sitemap.xml
+
+# Definition de la base de donnees pour les LLM
+# https://llmstxt.org/
+llms: https://eljietech.fr/llms.txt

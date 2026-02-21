@@ -1,10 +1,10 @@
 # PRIVACY POLICY
 
-**Last updated: January 02, 2026**
+**Last updated: February 21, 2026**
 
 
 
-This Privacy Policy describes how the Publisher collects, uses and protects the personal data of users (hereinafter the “User”) of the mobile application **FootcyclopedIA** (hereinafter the “Application”), in accordance with Regulation (EU) 2016/679 (GDPR) and the French Data Protection Act (Loi Informatique et Libertés).
+This Privacy Policy describes how the Publisher collects, uses and protects the personal data of users (hereinafter the “User”) of the mobile application **Ask TikiStata** (hereinafter the “Application”), in accordance with Regulation (EU) 2016/679 (GDPR) and the French Data Protection Act (Loi Informatique et Libertés).
 
 
 
@@ -25,6 +25,7 @@ The data controller is:
 * **Legal status:** Sole Proprietorship (Micro-entrepreneur – France)  
 
 * **SIRET number:** 99927439200011
+* **DUNS number:** 285865545
 
 * **Registered office:** 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
 

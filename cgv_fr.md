@@ -1,10 +1,10 @@
 # CONDITIONS GÉNÉRALES DE VENTE (CGV)
 
-**Dernière mise à jour : 02 janvier 2026**
+**Dernière mise à jour : 21 février 2026**
 
 
 
-Les présentes Conditions Générales de Vente (ci-après les « CGV ») régissent les ventes de contenus et services numériques effectuées au sein de l’application mobile **FootcyclopedIA** (ci-après « l’Application »).
+Les présentes Conditions Générales de Vente (ci-après les « CGV ») régissent les ventes de contenus et services numériques effectuées au sein de l’application mobile **Ask TikiStata** (ci-après « l’Application »).
 
 
 
@@ -27,6 +27,7 @@ Les ventes sont conclues entre :
 * **Statut :** Entrepreneur Individuel (Micro-entrepreneur)
 
 * **SIRET :** 99927439200011
+* **Numéro DUNS :** 285865545
 
 * **Siège social :** 31 RUE DE SAINTONGE 75003 PARIS FRANCE
 

@@ -1,10 +1,10 @@
 # CONDITIONS GÉNÉRALES D’UTILISATION (CGU)
 
-**Dernière mise à jour : 02 janvier 2026**
+**Dernière mise à jour : 21 février 2026**
 
 
 
-Les présentes Conditions Générales d’Utilisation (ci-après les « CGU ») ont pour objet de définir les modalités d’accès et d’utilisation de l’application mobile **FootcyclopedIA** (ci-après « l’Application »), éditée par **Lucas JULLIA - EI / Eljie Tech** (ci-après « l’Éditeur »).
+Les présentes Conditions Générales d’Utilisation (ci-après les « CGU ») ont pour objet de définir les modalités d’accès et d’utilisation de l’application mobile **Ask TikiStata** (ci-après « l’Application »), éditée par **Lucas JULLIA - EI / Eljie Tech** (ci-après « l’Éditeur »).
 
 
 
@@ -18,7 +18,7 @@ Dans les présentes CGU, les termes suivants ont la signification ci-après :
 
 
 
-* **Application :** l’application mobile FootcyclopedIA et l’ensemble de ses fonctionnalités.
+* **Application :** l’application mobile Ask TikiStata et l’ensemble de ses fonctionnalités.
 
 * **Utilisateur :** toute personne physique accédant à l’Application.
 

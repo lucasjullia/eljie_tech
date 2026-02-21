@@ -1,10 +1,10 @@
 # LEGAL NOTICE
 
-**Effective as of January 02, 2026**
+**Effective as of February 21, 2026**
 
 
 
-Pursuant to Articles 6-III and 19 of French Law No. 2004-575 of June 21, 2004 for Confidence in the Digital Economy (LCEN), users of the website **eljietech.fr** and the mobile application **FootcyclopedIA** are hereby informed of the present legal notice.
+Pursuant to Articles 6-III and 19 of French Law No. 2004-575 of June 21, 2004 for Confidence in the Digital Economy (LCEN), users of the website **eljietech.fr** and the mobile application **Ask TikiStata** are hereby informed of the present legal notice.
 
 
 
@@ -25,6 +25,7 @@ The website and the Application are published and managed by:
 * **Legal status:** Sole Proprietorship (Micro-entrepreneur – France)  
 
 * **SIRET number:** 99927439200011 
+* **DUNS number:** 285865545
 
 * **Registered office:** 31 RUE DE SAINTONGE, 75003 PARIS, FRANCE  
 
@@ -66,7 +67,7 @@ The website is hosted by:
 
 
 
-### 3.2 Application Hosting (FootcyclopedIA)
+### 3.2 Application Hosting (Ask TikiStata)
 
 The backend infrastructure of the Application is hosted by:
 

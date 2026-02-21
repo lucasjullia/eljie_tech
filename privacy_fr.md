@@ -1,10 +1,10 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 02 janvier 2026**
+**Dernière mise à jour : 21 février 2026**
 
 
 
-La présente Politique de Confidentialité décrit la manière dont l’Éditeur collecte, utilise et protège les données personnelles des utilisateurs (ci-après « l’Utilisateur ») de l’application mobile **FootcyclopedIA** (ci-après « l’Application »), conformément au Règlement (UE) 2016/679 (RGPD) et à la loi Informatique et Libertés.
+La présente Politique de Confidentialité décrit la manière dont l’Éditeur collecte, utilise et protège les données personnelles des utilisateurs (ci-après « l’Utilisateur ») de l’application mobile **Ask TikiStata** (ci-après « l’Application »), conformément au Règlement (UE) 2016/679 (RGPD) et à la loi Informatique et Libertés.
 
 
 
@@ -25,6 +25,7 @@ Le responsable du traitement des données est :
 * **Statut juridique :** Entrepreneur Individuel (Micro-entrepreneur)
 
 * **Numéro SIRET :** 99927439200011
+* **Numéro DUNS :** 285865545
 
 * **Siège social :** 31 RUE DE SAINTONGE 75003 PARIS FRANCE
 
