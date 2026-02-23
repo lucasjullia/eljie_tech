@@ -207,7 +207,7 @@ As a result, no refund may be claimed after activation of a subscription or use 
 
 ### 8.1 Term
 
-Subscriptions are concluded for a monthly term and are automatically renewed for successive identical periods.
+Subscriptions are concluded for a monthly term and are automatically renewed for successive identical periods. The User's App Store or Google Play account will be charged for renewal within 24 hours prior to the end of the current period, indicating the cost of the renewal.
 
 
 

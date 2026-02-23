@@ -151,6 +151,8 @@ The Application relies on the following service providers:
 
 * **Payments & subscriptions:** RevenueCat  
 
+* **Secure payment processing:** Apple (App Store) and Google (Google Play). The Publisher never has access to banking data.
+
 * **Advertising:** Google AdMob  
 
 * **Artificial intelligence:** DeepInfra (open-source models) and Google (Gemini 2.5 FlashLite)  

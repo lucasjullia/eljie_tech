@@ -147,6 +147,8 @@ L’Application repose sur les prestataires suivants :
 
 * **Paiements & abonnements :** RevenueCat
 
+* **Traitement des paiements sécurisés :** Apple (App Store) et Google (Google Play). L'Éditeur n'a jamais accès aux données bancaires.
+
 * **Publicité :** Google AdMob
 
 * **Intelligence artificielle :** DeepInfra (modèles open-source) et Google (Gemini 2.5 FlashLite)

@@ -197,7 +197,7 @@ En conséquence, aucun remboursement ne pourra être exigé après l’activatio
 
 ### 8.1 Durée
 
-Les abonnements sont conclus pour une durée mensuelle et se renouvellent automatiquement pour des périodes successives identiques.
+Les abonnements sont conclus pour une durée mensuelle et se renouvellent automatiquement pour des périodes successives identiques. Le compte App Store ou Google Play de l'Utilisateur sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours, en indiquant le coût du renouvellement.
 
 
 
