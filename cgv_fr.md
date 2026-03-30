@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES DE VENTE (CGV)
 
-**Dernière mise à jour : 21 février 2026**
+**Dernière mise à jour : 30 mars 2026**
 
 
 
@@ -74,6 +74,8 @@ L’Application propose les produits suivants, via la plateforme **RevenueCat** 
 Ces abonnements donnent accès à :
 
 * un quota quotidien de questions IA augmenté,
+
+* la possibilité d'étendre la longueur des discussions (jusqu'à 5 questions par discussion pour Captain, 7 pour Legend),
 
 * la suppression des bannières publicitaires,
 

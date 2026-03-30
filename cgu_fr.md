@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES D’UTILISATION (CGU)
 
-**Dernière mise à jour : 21 février 2026**
+**Dernière mise à jour : 30 mars 2026**
 
 
 
@@ -82,6 +82,10 @@ L’Application propose un assistant conversationnel basé sur l’intelligence 
 
 L'Application inclut un service de notifications push destiné à informer l'Utilisateur de la disponibilité de ses quotas quotidiens ou de l'actualité sportive marquante. Ce service vise à faciliter l'engagement de l'Utilisateur avec l'assistant conversationnel.
 
+L'Utilisateur a la possibilité de dicter ses questions au micro. Les enregistrements vocaux ne sont jamais collectés, transmis ni stockés sur les serveurs de l'Éditeur.
+
+De plus, l'Utilisateur peut choisir, de manière totalement facultative, de sauvegarder l'historique de ses interactions avec l'IA sur nos serveurs pour pouvoir retrouver ses précédentes discussions et les reprendre ultérieurement.
+
 
 
 ---
@@ -124,7 +128,7 @@ L’accès aux questions est soumis à des quotas journaliers, variables selon l
 
 3. **Legend**
 
-
+La longueur maximale de chaque discussion (nombre de questions par discussion) varie également selon le plan : 4 questions (Gratuit), 5 questions (Captain), et 7 questions (Legend).
 
 L’Éditeur se réserve le droit de modifier les quotas ou les fonctionnalités associées à chaque plan.
 

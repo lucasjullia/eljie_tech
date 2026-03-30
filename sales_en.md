@@ -1,6 +1,6 @@
 # GENERAL TERMS AND CONDITIONS OF SALE (GTC)
 
-**Last updated: February 21, 2026**
+**Last updated: March 30, 2026**
 
 
 
@@ -80,6 +80,8 @@ The Application offers the following products via the **RevenueCat** platform:
 These subscriptions provide access to:
 
 * an increased daily quota of AI-generated questions,
+
+* the ability to extend the length of conversations (up to 5 questions per discussion for Captain, 7 for Legend),
 
 * removal of advertising banners,
 

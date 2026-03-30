@@ -1,6 +1,6 @@
 # TERMS AND CONDITIONS OF USE (TCU)
 
-**Last updated: February 21, 2026**
+**Last updated: March 30, 2026**
 
 
 
@@ -83,6 +83,10 @@ The Application provides an AI-powered conversational assistant specialized in f
 The Application includes a push notification service intended to inform the User of the availability of their daily usage quotas and of significant sports-related events.
 This service is designed to facilitate User engagement with the conversational assistant and the Application’s features.
 
+The User can opt to dictate questions via the microphone. Voice recordings are never collected, transmitted, nor stored on the Publisher's servers.
+
+Additionally, the User can choose, entirely optionally, to have the history of their interactions with the AI saved on our servers in order to retrieve previous chats and resume them later on.
+
 
 
 ---
@@ -125,7 +129,7 @@ Access to questions is subject to daily usage quotas, which vary depending on th
 
 3. **Legend**
 
-
+The maximum length of each discussion (number of questions per discussion) also varies depending on the plan: 4 questions (Free), 5 questions (Captain), and 7 questions (Legend).
 
 The Publisher reserves the right to modify the quotas or features associated with each plan.
 

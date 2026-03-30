@@ -1,6 +1,6 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 21 février 2026**
+**Dernière mise à jour : 30 mars 2026**
 
 
 
@@ -78,9 +78,11 @@ L’Éditeur collecte uniquement les données strictement nécessaires au foncti
 
 ### 2.3 Données liées à l’utilisation de l’IA
 
-* Les conversations avec l’intelligence artificielle ne sont pas conservées par défaut sur les serveurs de l’Éditeur.
+* Les conversations avec l’intelligence artificielle ne sont pas conservées par défaut sur les serveurs de l’Éditeur. Cependant, l'Utilisateur a le choix, de manière totalement facultative, d'accepter que ses interactions soient stockées afin de pouvoir retrouver et reprendre ses anciennes discussions.
 
-* Certaines requêtes peuvent être temporairement traitées par des prestataires IA afin de générer une réponse.
+* L'Utilisateur peut dicter ses questions vocalement. La transcription s'effectue localement ou de manière sécurisée sans que la voix ou les enregistrements audio ne soient jamais collectés, conservés ni stockés sur nos serveurs.
+
+* Certaines requêtes textuelles peuvent être temporairement traitées par des prestataires IA afin de générer une réponse.
 
 
 

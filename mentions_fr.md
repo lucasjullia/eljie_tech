@@ -1,6 +1,6 @@
 # MENTIONS LÉGALES
 
-**En vigueur au 21 février 2026**
+**En vigueur au 30 mars 2026**
 
 
 

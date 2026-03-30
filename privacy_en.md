@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 
-**Last updated: February 21, 2026**
+**Last updated: March 30, 2026**
 
 
 
@@ -79,9 +79,11 @@ The Publisher collects only the personal data strictly necessary for the operati
 
 ### 2.3 AI usage data
 
-* Conversations with the artificial intelligence are not stored by default on the Publisher’s servers.
+* Conversations with the artificial intelligence are not stored by default on the Publisher’s servers. However, the User has the option, completely optionally, to consent to having their interactions stored in order to find and resume past chats.
 
-* Certain requests may be temporarily processed by AI service providers in order to generate a response.
+* The User may dictate questions using the microphone. Processing is done securely without the voice or audio recordings ever being collected, transmitted, or stored on our servers.
+
+* Certain text requests may be temporarily processed by AI service providers in order to generate a response.
 
 
 
