@@ -211,24 +211,51 @@
         .store-buttons {
             display: flex;
             gap: 15px;
+            flex-wrap: wrap;
         }
 
         .btn-store {
-            background: #fff;
-            color: #000;
-            padding: 14px 28px;
+            padding: 14px 24px;
             border-radius: 14px;
             text-decoration: none;
             font-weight: bold;
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             transition: 0.3s;
+            font-size: 1.05rem;
         }
 
-        .btn-store:hover {
+        .btn-store.apple {
+            background: #000;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-store.apple:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .btn-store.google {
+            background: #fff;
+            color: #000;
+        }
+
+        .btn-store.google:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-store.discover {
+            background: var(--gradient-border);
+            color: white;
+        }
+
+        .btn-store.discover:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(244, 50, 165, 0.3);
         }
 
         .app-legal-box {
@@ -431,36 +458,32 @@
     </section>
 
     <div class="main-content">
-        <a href="asktikistata/" style="text-decoration: none; color: inherit; display: block;">
-            <div class="app-card"
-                style="margin-bottom: 30px; border: 1px solid rgba(139, 48, 193, 0.3); transition: transform 0.3s; cursor: pointer;"
-                onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='none'">
-                <div class="app-header-flex">
-                    <div class="app-info">
-                        <span class="app-tagline" id="app-subtitle">Football, Data & AI</span>
-                        <h2>Ask TikiStata</h2>
-                        <h3 id="app-slogan"
-                            style="color: var(--primary-pink); font-size: 1.1rem; margin-top: -10px; margin-bottom: 20px; font-weight: 500;">
-                            Données fiables, réponses intelligentes</h3>
-                        <p id="app-desc" class="app-description">Ask TikiStata est l'encyclopédie statistique du
-                            football propulsée par l'Intelligence Artificielle. Interrogez TikiStata, notre agent IA, en
-                            langage naturel sur plus d'une décennie d'historique de matchs, équipes, joueurs et
-                            transferts. Obtenez des réponses intelligentes et fiables instantanément.</p>
+        <div class="app-card" style="margin-bottom: 30px; border: 1px solid rgba(139, 48, 193, 0.3);">
+            <div class="app-header-flex">
+                <div class="app-info">
+                    <span class="app-tagline" id="app-subtitle">Football, Data & AI</span>
+                    <h2>Ask TikiStata</h2>
+                    <h3 id="app-slogan"
+                        style="color: var(--primary-pink); font-size: 1.1rem; margin-top: -10px; margin-bottom: 20px; font-weight: 500;">
+                        Données fiables, réponses intelligentes</h3>
+                    <p id="app-desc" class="app-description">Ask TikiStata est l'encyclopédie statistique du
+                        football propulsée par l'Intelligence Artificielle. Interrogez TikiStata, notre agent IA, en
+                        langage naturel sur plus d'une décennie d'historique de matchs, équipes, joueurs et
+                        transferts. Obtenez des réponses intelligentes et fiables instantanément.</p>
 
-                        <div class="store-buttons">
-                            <span class="btn-store"
-                                style="background: var(--gradient-border); color: white; border: none; padding: 14px 30px;">Découvrir
-                                Ask TikiStata &rarr;</span>
-                        </div>
-                    </div>
-                    <div
-                        style="flex: 0.5; text-align: center; display: flex; justify-content: center; align-items: center;">
-                        <img src="Logo Ask TikiStata - nom complet - transparent.png" alt="Logo Ask TikiStata"
-                            style="max-width: 100%; height: auto; max-height: 200px; filter: drop-shadow(0 0 20px rgba(139, 48, 193, 0.3));">
+                    <div class="store-buttons">
+                        <a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank" class="btn-store apple"><i class="fab fa-apple" style="font-size: 1.4rem;"></i> App Store</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank" class="btn-store google"><i class="fab fa-google-play" style="font-size: 1.3rem;"></i> Play Store</a>
+                        <a href="asktikistata/" class="btn-store discover" id="btn-discover">Détails &rarr;</a>
                     </div>
                 </div>
+                <div
+                    style="flex: 0.5; text-align: center; display: flex; justify-content: center; align-items: center;">
+                    <img src="Logo Ask TikiStata - nom complet - transparent.png" alt="Logo Ask TikiStata"
+                        style="max-width: 100%; height: auto; max-height: 200px; filter: drop-shadow(0 0 20px rgba(139, 48, 193, 0.3));">
+                </div>
             </div>
-        </a>
+        </div>
 
         <div class="app-legal-box" style="margin-bottom: 40px; border-top: none; padding-top: 10px;">
             <p class="legal-title-small" id="label-docs-app">Documentation de l'application</p>
@@ -515,6 +538,7 @@
                 "app-desc": "Ask TikiStata est l'encyclopédie statistique du football propulsée par l'Intelligence Artificielle. Interrogez TikiStata, notre agent IA, en langage naturel sur plus d'une décennie d'historique de matchs, équipes, joueurs et transferts. Obtenez des réponses intelligentes et fiables instantanément.",
                 "label-docs-app": "Documentation de l'application",
                 "label-privacy": "Confidentialité", "label-cgu": "CGU", "label-cgv": "CGV",
+                "btn-discover": "Détails \u2192",
                 "nav-mentions": "Mentions Légales", "contact-label": "Contact professionnel :",
                 "footer-rights": "Tous droits réservés.", "footer-acc": "Accessibilité : non conforme"
             },
@@ -531,6 +555,7 @@
                 "app-desc": "Ask TikiStata is the statistical encyclopedia for football powered by Artificial Intelligence. Query TikiStata, our AI agent, in natural language across more than a decade of matches, teams, players, and transfers history. Get smart and reliable answers instantly.",
                 "label-docs-app": "Application documentation",
                 "label-privacy": "Privacy Policy", "label-cgu": "Terms of Use", "label-cgv": "Terms of Sale",
+                "btn-discover": "Details \u2192",
                 "nav-mentions": "Legal Notice", "contact-label": "Business contact:",
                 "footer-rights": "All rights reserved.", "footer-acc": "Accessibility: non-compliant"
             }
