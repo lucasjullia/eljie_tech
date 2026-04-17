@@ -20,6 +20,16 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+# Autorisation explicite pour les robots Google Ads (app-ads.txt)
+User-agent: Google-adstxt
+Disallow:
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
 # Emplacement du plan du site pour faciliter la decouverte classique
 Sitemap: https://eljietech.fr/sitemap.xml
 
