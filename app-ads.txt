@@ -146,3 +146,4 @@ indexexchange.com, 214183, RESELLER, 50b1c356f2c5c8fc
 smartclip.net, 13564, RESELLER
 targetbetter.com, 82228, RESELLER
 taurusx.com, 70079, RESELLER
+vungle.com, 69efdc3563ed3b5eefe8316c, DIRECT, c107d686becd2d77
