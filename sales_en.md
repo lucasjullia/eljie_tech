@@ -1,6 +1,6 @@
 # GENERAL TERMS AND CONDITIONS OF SALE (GTC)
 
-**Last updated: March 30, 2026**
+**Last updated: July 28, 2026**
 
 
 

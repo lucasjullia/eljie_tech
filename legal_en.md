@@ -1,6 +1,6 @@
 # LEGAL NOTICE
 
-**Effective as of March 30, 2026**
+**Effective as of July 28, 2026**
 
 
 
@@ -99,7 +99,9 @@ The technical infrastructure includes Firebase Cloud Messaging services for the 
 
 * **DeepInfra** (open-source models, including OSS-120B)  
 
-* **Google Cloud** (Gemini 2.5 FlashLite)
+* **Google Cloud** (Gemini 2.5 FlashLite)  
+
+* **DeepSeek** (DeepSeek V4 Flash)
 
 
 

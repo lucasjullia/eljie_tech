@@ -20,6 +20,12 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 # Autorisation explicite pour les robots Google Ads (app-ads.txt)
 User-agent: Google-adstxt
 Disallow:
@@ -33,6 +39,6 @@ Allow: /
 # Emplacement du plan du site pour faciliter la decouverte classique
 Sitemap: https://eljietech.fr/sitemap.xml
 
-# Definition de la base de donnees pour les LLM
-# https://llmstxt.org/
+# Definition de la base de donnees pour les LLM (https://llmstxt.org/)
 llms: https://eljietech.fr/llms.txt
+llms-full: https://eljietech.fr/llms-full.txt

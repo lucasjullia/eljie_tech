@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES DE VENTE (CGV)
 
-**Dernière mise à jour : 30 mars 2026**
+**Dernière mise à jour : 28 juillet 2026**
 
 
 

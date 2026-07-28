@@ -1,6 +1,6 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 30 mars 2026**
+**Dernière mise à jour : 28 juillet 2026**
 
 
 
@@ -153,7 +153,7 @@ L’Application repose sur les prestataires suivants :
 
 * **Publicité :** Google AdMob
 
-* **Intelligence artificielle :** DeepInfra (modèles open-source) et Google (Gemini 2.5 FlashLite)
+* **Intelligence artificielle :** DeepInfra (modèle OSS-120B), Google Cloud (modèle Gemini 2.5 FlashLite) et DeepSeek (modèle DeepSeek V4 Flash)
 
 * **Données sportives :** api-football.com (aucune donnée personnelle transmise)
 
@@ -169,11 +169,17 @@ Chaque prestataire agit en tant que sous-traitant au sens du RGPD et applique se
 
 ## 5. TRANSFERTS DE DONNÉES HORS UNION EUROPÉENNE
 
-Certains prestataires peuvent traiter des données en dehors de l’Union européenne (notamment aux États-Unis). Dans ce cas, l’Éditeur s’assure que ces transferts sont encadrés par des garanties appropriées, telles que :
+Certains prestataires tiers et sous-traitants peuvent traiter des données en dehors de l’Union européenne / Espace Économique Européen (EEE) :
 
-* des clauses contractuelles types approuvées par la Commission européenne,
+* **États-Unis :** prestataires d'hébergement, d'authentification, de paiement, de publicité et d'IA (Google Cloud Platform, DeepInfra, RevenueCat, GitHub).
 
-* ou des mécanismes reconnus comme offrant un niveau de protection adéquat.
+* **Chine :** prestataire d'intelligence artificielle (DeepSeek / DeepSeek AI) sollicité pour le traitement temporaire de certaines requêtes textuelles.
+
+L’Éditeur s’assure que l’ensemble de ces transferts respecte les exigences du RGPD :
+
+* l'utilisation de garanties appropriées telles que des Clauses Contractuelles Types (CCT) adoptées par la Commission européenne ou des mécanismes de protection reconnus ;
+
+* une politique stricte de minimisation des données transmises : l’Éditeur ne transmet **aucune donnée de compte ni d'identité** (telles que l'adresse email, le nom, le pseudo, l'adresse IP ou l'identifiant utilisateur) aux prestataires et modèles d'IA, y compris au sous-traitant DeepSeek situé en Chine. Seul le texte brut de la question saisie par l'Utilisateur est transmis afin de générer la réponse. L’Utilisateur est invité à ne pas intégrer spontanément d'informations personnelles sensibles dans le texte de ses questions.
 
 
 
