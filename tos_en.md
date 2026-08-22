@@ -1,6 +1,6 @@
 # TERMS AND CONDITIONS OF USE (TCU)
 
-**Last updated: July 28, 2026**
+**Last updated: August 22, 2026**
 
 
 
@@ -78,7 +78,7 @@ The Application provides an AI-powered conversational assistant specialized in f
 
 * third-party databases (including API-Football),
 
-* AI models operated through external service providers (including DeepInfra with the OSS-120B model, Google Cloud with the Gemini 2.5 FlashLite model, and DeepSeek with the DeepSeek V4 Flash model).
+* AI models operated through external service providers (including DeepInfra with the OSS-120B model and Baseten with the DeepSeek V4 Flash model).
 
 The Application includes a push notification service intended to inform the User of the availability of their daily usage quotas and of significant sports-related events.
 This service is designed to facilitate User engagement with the conversational assistant and the Application’s features.

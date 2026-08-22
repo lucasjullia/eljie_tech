@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES D’UTILISATION (CGU)
 
-**Dernière mise à jour : 28 juillet 2026**
+**Dernière mise à jour : 22 août 2026**
 
 
 
@@ -78,7 +78,7 @@ L’Application propose un assistant conversationnel basé sur l’intelligence 
 
 * de bases de données tierces (notamment API-Football),
 
-* de modèles d’IA exploités via des prestataires externes (notamment DeepInfra avec le modèle OSS-120B, Google Cloud avec le modèle Gemini 2.5 FlashLite, et DeepSeek avec le modèle DeepSeek V4 Flash).
+* de modèles d’IA exploités via des prestataires externes (notamment DeepInfra avec le modèle OSS-120B et Baseten avec le modèle DeepSeek V4 Flash).
 
 L'Application inclut un service de notifications push destiné à informer l'Utilisateur de la disponibilité de ses quotas quotidiens ou de l'actualité sportive marquante. Ce service vise à faciliter l'engagement de l'Utilisateur avec l'assistant conversationnel.
 

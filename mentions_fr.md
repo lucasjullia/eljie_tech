@@ -1,6 +1,6 @@
 # MENTIONS LÉGALES
 
-**En vigueur au 28 juillet 2026**
+**En vigueur au 22 août 2026**
 
 
 
@@ -98,9 +98,7 @@ L’infrastructure inclut les services Firebase Cloud Messaging pour la gestion 
 
 * **DeepInfra** (modèles open-source, dont OSS-120B)
 
-* **Google Cloud** (Gemini 2.5 FlashLite)
-
-* **DeepSeek** (DeepSeek V4 Flash) 
+* **Baseten** (modèle DeepSeek V4 Flash) 
 
 
 

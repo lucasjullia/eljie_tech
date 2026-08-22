@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conditions Générales de Vente de Ask TikiStata">
-    <title>Conditions Générales de Vente | Ask TikiStata</title>
+    <meta name="description" content="Conditions Générales de Vente de TikiStata">
+    <title>Conditions Générales de Vente | TikiStata</title>
     <link rel="icon" type="image/png" href="../../favicon-96x96.png">
     
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
 <body>
 
 <header>
-    <div class="logo"><a href="../"><i class="fas fa-arrow-left" style="margin-right: 10px; font-size: 1rem;"></i>Ask TikiStata</a></div>
+    <div class="logo"><a href="../"><i class="fas fa-arrow-left" style="margin-right: 10px; font-size: 1rem;"></i>TikiStata</a></div>
     <div class="lang-switch">
         <button class="lang-btn active" id="btn-fr" onclick="setLang('fr')">FR</button>
         <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
@@ -111,7 +111,7 @@
         document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
         document.getElementById('btn-' + lang).classList.add('active');
         document.querySelector('html').lang = lang;
-        document.title = titles[lang] + " | Ask TikiStata";
+        document.title = titles[lang] + " | TikiStata";
         document.getElementById('footer-rights').innerText = rights[lang];
         loadDoc();
     }

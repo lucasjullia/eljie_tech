@@ -1,6 +1,6 @@
 # PRIVACY POLICY
 
-**Last updated: July 28, 2026**
+**Last updated: August 22, 2026**
 
 
 
@@ -157,7 +157,7 @@ The Application relies on the following service providers:
 
 * **Advertising:** Google AdMob  
 
-* **Artificial intelligence:** DeepInfra (OSS-120B model), Google Cloud (Gemini 2.5 FlashLite model), and DeepSeek (DeepSeek V4 Flash model)  
+* **Artificial intelligence:** DeepInfra (OSS-120B model) and Baseten (DeepSeek V4 Flash model)  
 
 * **Sports data:** api-football.com (no personal data transmitted)
 
@@ -175,15 +175,13 @@ Each provider acts as a data processor within the meaning of the GDPR and applie
 
 Certain third-party service providers and data processors may process data outside the European Union / European Economic Area (EEA):
 
-* **United States:** hosting, authentication, payment, advertising, and AI service providers (Google Cloud Platform, DeepInfra, RevenueCat, GitHub).
-
-* **China:** artificial intelligence provider (DeepSeek / DeepSeek AI) used for the temporary processing of certain text requests.
+* **United States:** hosting, authentication, payment, advertising, and AI service providers (Google Cloud Platform, DeepInfra, Baseten, RevenueCat, GitHub).
 
 The Publisher ensures that all such transfers comply with GDPR requirements:
 
 * appropriate safeguards such as Standard Contractual Clauses (SCCs) approved by the European Commission or recognized protection mechanisms;
 
-* a strict data minimization policy: the Publisher transmits **no account or identity data** (such as email address, name, username, IP address, or user ID) to AI service providers or models, including the DeepSeek provider located in China. Only the raw prompt text entered by the User is transmitted to generate the response. Users are advised not to spontaneously include personal or sensitive information within the text of their queries.
+* a strict data minimization policy: the Publisher transmits **no account or identity data** (such as email address, name, username, IP address, or user ID) to AI service providers or models. Only the raw prompt text entered by the User is transmitted to generate the response. Users are advised not to spontaneously include personal or sensitive information within the text of their queries.
 
 
 
