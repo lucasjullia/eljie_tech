@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES D’UTILISATION (CGU)
 
-**Dernière mise à jour : 22 août 2026**
+**Dernière mise à jour : 12 septembre 2026**
 
 
 
@@ -120,15 +120,14 @@ Les réponses fournies par l'IA :
 
 ## 6. QUOTAS ET PLANS D’UTILISATION
 
-L’accès aux questions est soumis à des quotas journaliers, variables selon le plan choisi :
+L’accès aux questions est soumis à des quotas journaliers et des fonctionnalités associées, selon la formule choisie :
 
-1. **Gratuit**
+1. **Gratuit :** quota quotidien de base financé par la publicité (vidéos récompensées pour débloquer des questions au-delà), jusqu'à 4 questions par discussion.
+2. **Captain (1,99€/mois, 1er mois d'essai gratuit, sans engagement) :** permet d'obtenir 15 questions par jour sans aucune publicité (dans la limite de ces 15 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 5 interactions questions-réponses dans la même discussion.
+3. **Legend (2,99€/mois, 1er mois d'essai gratuit, sans engagement) :** permet d'obtenir 30 questions par jour sans aucune publicité (dans la limite de ces 30 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 7 interactions questions-réponses dans la même discussion.
+4. **Pack de questions (one-shot) :** pack de 15 questions supplémentaires (0,99€ en achat ponctuel, sans engagement).
 
-2. **Captain**
-
-3. **Legend**
-
-La longueur maximale de chaque discussion (nombre de questions par discussion) varie également selon le plan : 4 questions (Gratuit), 5 questions (Captain), et 7 questions (Legend).
+La longueur maximale de chaque discussion (nombre de questions par discussion) varie selon le plan : 4 questions (Gratuit), 5 questions (Captain), et 7 questions (Legend).
 
 L’Éditeur se réserve le droit de modifier les quotas ou les fonctionnalités associées à chaque plan.
 

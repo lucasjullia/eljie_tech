@@ -21,6 +21,12 @@ It acts as an intelligent conversational agent and visual data engine covering v
   - *Streaks & Rewards*: Answering correctly 2 days in a row earns 1 bonus question for the TikiStata AI agent. Active streaks and personal records are tracked.
 - **Gamification (Badges & Trophies)**: Users collect virtual achievement badges and trophies by exploring statistical themes with the AI.
 
+## Pricing & Subscription Plans
+- **Free Tier**: Daily usage quota with ads (and rewarded videos to unlock more questions).
+- **Captain Subscription**: €1.99/month, 1st month free trial, no commitment. 15 questions/day ad-free (rewarded video required beyond daily quota), up to 5 Q&A turns per thread.
+- **Legend Subscription**: €2.99/month, 1st month free trial, no commitment. 30 questions/day ad-free (rewarded video required beyond daily quota), up to 7 Q&A turns per thread.
+- **One-Shot Question Pack**: €0.99 for 15 additional consumable questions (one-time purchase).
+
 ## Official Links & Resources
 - **App Landing Page**: https://eljietech.fr/asktikistata/
 - **Full LLM Knowledge Base**: https://eljietech.fr/llms-full.txt

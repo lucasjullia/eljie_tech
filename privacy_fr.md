@@ -1,6 +1,6 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 22 août 2026**
+**Dernière mise à jour : 12 septembre 2026**
 
 
 

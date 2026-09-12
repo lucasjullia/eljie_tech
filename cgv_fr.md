@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES DE VENTE (CGV)
 
-**Dernière mise à jour : 22 août 2026**
+**Dernière mise à jour : 12 septembre 2026**
 
 
 
@@ -61,55 +61,27 @@ Les présentes CGV ont pour objet de définir les conditions dans lesquelles l�
 
 L’Application propose les produits suivants, via la plateforme **RevenueCat** :
 
+### 3.1 Abonnements (sans engagement, 1er mois d'essai gratuit)
 
+* **Captain :** permet d'obtenir 15 questions par jour, sans aucune publicité (dans la limite des 15 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 5 interactions questions-réponses dans la même discussion.
+* **Legend :** permet d'obtenir 30 questions par jour, sans aucune publicité (dans la limite des 30 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 7 interactions questions-réponses dans la même discussion.
 
-### 3.1 Abonnements
+Ces abonnements sont conclus sans engagement et font l'objet d'un premier mois d'essai gratuit.
 
-* **Captain**
+### 3.2 Achats consommables (one-shot)
 
-* **Legend**
-
-
-
-Ces abonnements donnent accès à :
-
-* un quota quotidien de questions IA augmenté,
-
-* la possibilité d'étendre la longueur des discussions (jusqu'à 5 questions par discussion pour Captain, 7 pour Legend),
-
-* la suppression des bannières publicitaires,
-
-* des fonctionnalités premium définies dans l’Application.
-
-
-
-### 3.2 Achats consommables
-
-* Packs de questions supplémentaires,
-
-* utilisables immédiatement après achat,
-
-* non cumulables au-delà des limites techniques de l’Application.
-
-
+* **Pack de 15 questions supplémentaires :** achat ponctuel (one-shot) sans engagement ni abonnement récurrent, permettant d'obtenir un crédit de 15 questions utilisables immédiatement après achat, non cumulables au-delà des limites techniques de l’Application.
 
 ---
-
-
 
 ## 4. PRIX
 
 Les prix sont indiqués en euros (€), toutes taxes comprises (TTC). Pour les Utilisateurs situés hors zone euro, les prix sont automatiquement convertis et affichés dans la devise locale par l’App Store ou le Google Play Store.
 
-* **Captain :** 5,99€ par mois
+* **Captain :** 1,99€ par mois (1er mois d'essai gratuit, sans engagement)
+* **Legend :** 2,99€ par mois (1er mois d'essai gratuit, sans engagement)
 
-* **Legend :** 9,99€ par mois
-
-
-
-* **Packs de questions supplémentaires :** 1,99€
-
-
+* **Pack de 15 questions supplémentaires (one-shot) :** 0,99€ en achat unique
 
 L’Éditeur se réserve le droit de modifier les prix à tout moment, sans effet rétroactif sur les achats déjà effectués.
 
@@ -195,21 +167,19 @@ En conséquence, aucun remboursement ne pourra être exigé après l’activatio
 
 ## 8. ABONNEMENTS ET RÉSILIATION
 
+### 8.1 Durée et engagement
 
+Les abonnements sont souscrits sans engagement de durée, pour une période mensuelle avec tacite reconduction pour des périodes successives identiques. Le compte App Store ou Google Play de l'Utilisateur sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours, en indiquant le coût du renouvellement.
 
-### 8.1 Durée
+### 8.2 Période d'essai gratuit
 
-Les abonnements sont conclus pour une durée mensuelle et se renouvellent automatiquement pour des périodes successives identiques. Le compte App Store ou Google Play de l'Utilisateur sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours, en indiquant le coût du renouvellement.
+Les abonnements Captain et Legend bénéficient d'un premier (1er) mois d'essai gratuit. Durant cette période d'essai gratuit, l'Utilisateur accède à l'ensemble des avantages du forfait sans être débité. L'Utilisateur peut résilier son abonnement à tout moment pendant la période d'essai gratuit, au moins 24 heures avant la fin de celle-ci, sans être facturé. À l'issue du 1er mois d'essai gratuit, et en l'absence de résiliation préalable, l'abonnement se poursuit automatiquement au tarif mensuel en vigueur (1,99€/mois pour Captain, 2,99€/mois pour Legend).
 
+### 8.3 Résiliation
 
+L’Utilisateur peut résilier son abonnement à tout moment et sans motif, exclusivement via les paramètres de son compte App Store ou Google Play, au moins 24 heures avant la fin de la période en cours (ou de la période d'essai gratuit) pour éviter le renouvellement et toute facturation.
 
-### 8.2 Résiliation
-
-L’Utilisateur peut résilier son abonnement à tout moment, exclusivement via les paramètres de son compte App Store ou Google Play, au moins 24 heures avant la fin de la période en cours pour éviter le renouvellement.
-
-
-
-### 8.3 Restauration des achats
+### 8.4 Restauration des achats
 
 En cas de changement d’appareil ou de réinstallation de l’Application, l’Utilisateur peut restaurer ses achats via la fonctionnalité **« Restore Purchases »**.
 
