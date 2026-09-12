@@ -180,15 +180,38 @@
         }
 
         .hero {
-            padding: 40px 5% 20px;
+            padding: 50px 5% 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             text-align: center;
+            width: 100%;
         }
 
         .hero-logo {
-            max-width: 250px;
+            display: block;
+            margin: 0 auto 24px auto;
+            max-width: 260px;
+            width: 100%;
             height: auto;
-            margin-bottom: 20px;
-            filter: drop-shadow(0 0 20px rgba(139, 48, 193, 0.4));
+            filter: drop-shadow(0 0 20px rgba(139, 48, 193, 0.45));
+            transition: transform 0.3s ease;
+        }
+
+        .hero-logo:hover {
+            transform: scale(1.02);
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
         }
 
         .hero h1 {
@@ -352,6 +375,7 @@
         .v2-badge {
             display: inline-flex;
             align-items: center;
+            justify-content: center;
             gap: 8px;
             background: rgba(244, 50, 165, 0.15);
             border: 1px solid rgba(244, 50, 165, 0.4);
@@ -362,7 +386,7 @@
             font-weight: 700;
             letter-spacing: 1px;
             text-transform: uppercase;
-            margin-bottom: 12px;
+            margin: 0 auto 14px auto;
         }
 
         .showcase-section {
@@ -512,19 +536,21 @@
 
     <section class="hero">
         <img src="../Logo Ask TikiStata - nom complet - transparent.png" alt="Logo TikiStata" class="hero-logo">
-        <div class="v2-badge" id="app-badge"><i class="fas fa-sparkles" style="margin-right: 6px;"></i><span id="label-v2-badge">TikiStata 2.0 • Nouvelle version</span></div>
-        <span class="app-tagline" id="app-subtitle"
-            style="display: block; font-weight: bold; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 3px; font-size: 0.9rem; background: var(--gradient-border); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Football,
-            Data & AI</span>
-        <h3 id="app-slogan"
-            style="color: var(--primary-pink); font-size: 1.3rem; margin-top: 10px; margin-bottom: 20px; font-weight: 600;">
-            Données fiables, réponses intelligentes</h3>
+        <div class="hero-content">
+            <div class="v2-badge" id="app-badge"><i class="fas fa-sparkles" style="margin-right: 6px;"></i><span id="label-v2-badge">TikiStata 2.0 • Nouvelle version</span></div>
+            <span class="app-tagline" id="app-subtitle"
+                style="display: block; font-weight: bold; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 3px; font-size: 0.9rem; background: var(--gradient-border); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; text-align: center;">Football,
+                Data & AI</span>
+            <h3 id="app-slogan"
+                style="color: var(--primary-pink); font-size: 1.3rem; margin-top: 10px; margin-bottom: 20px; font-weight: 600; text-align: center;">
+                Données fiables, réponses intelligentes</h3>
 
-        <div class="store-buttons" style="justify-content: center; margin-top: 10px;">
-            <a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank"
-                class="btn-store apple"><i class="fab fa-apple" style="font-size: 1.5rem;"></i> App Store</a>
-            <a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank"
-                class="btn-store google"><i class="fab fa-google-play" style="font-size: 1.4rem;"></i> Play Store</a>
+            <div class="store-buttons" style="justify-content: center; margin-top: 10px; margin-bottom: 20px;">
+                <a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank"
+                    class="btn-store apple"><i class="fab fa-apple" style="font-size: 1.5rem;"></i> App Store</a>
+                <a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank"
+                    class="btn-store google"><i class="fab fa-google-play" style="font-size: 1.4rem;"></i> Play Store</a>
+            </div>
         </div>
     </section>
 
