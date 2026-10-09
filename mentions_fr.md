@@ -4,7 +4,7 @@
 
 
 
-Conformément aux dispositions des articles 6-III et 19 de la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’Économie Numérique (LCEN), il est porté à la connaissance des utilisateurs du site internet **eljietech.fr** et de l’application mobile **Ask TikiStata** les présentes mentions légales.
+Conformément aux dispositions des articles 6-III et 19 de la loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’Économie Numérique (LCEN), il est porté à la connaissance des utilisateurs du site internet **eljietech.fr** et des applications mobiles **Ask TikiStata** et **Splitou** les présentes mentions légales.
 
 
 
@@ -84,6 +84,12 @@ Conformément à la LCEN, l’hébergeur assure le stockage des données techniq
 L’infrastructure inclut les services Firebase Cloud Messaging pour la gestion des notifications.
 
 
+
+### 3.3 Hébergement de l'Application (Splitou)
+
+Le backend de l'application Splitou (Firebase : base de données, fonctions, hébergement de la page invités splitou-app.web.app) est hébergé par **Google Ireland Limited** (Google Cloud Platform / Firebase), Gordon House, Barrow Street, Dublin 4, Irlande, dans la région europe-west1 (Belgique).
+
+
 ---
 
 
@@ -99,6 +105,8 @@ L’infrastructure inclut les services Firebase Cloud Messaging pour la gestion 
 * **DeepInfra** (modèles open-source, dont OSS-120B)
 
 * **Baseten** (modèle DeepSeek V4 Flash) 
+
+* **Google Gemini via Vertex AI** (lecture des tickets de caisse dans l'application Splitou ; les photos ne sont pas conservées)
 
 
 

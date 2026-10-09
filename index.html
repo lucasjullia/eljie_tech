@@ -7,7 +7,7 @@
     <meta name="description" id="meta-desc"
         content="TikiStata 2.0 est l'application ultime de statistiques de football propulsée par l'IA : visualisations graphiques automatiques, comparaisons poussées, données en temps réel actualisées toutes les heures et quiz foot quotidien.">
     <meta name="keywords"
-        content="TikiStata, TikiStata 2.0, app stat foot, statistiques football, visualisations graphiques foot, graphiques statistiques, comparaisons joueurs foot, intelligence artificielle football, IA, football data, quiz foot quotidien, question quotidienne foot, culture foot, Ligue 1, Premier League, Champions League">
+        content="TikiStata, TikiStata 2.0, app stat foot, statistiques football, visualisations graphiques foot, graphiques statistiques, comparaisons joueurs foot, intelligence artificielle football, IA, football data, quiz foot quotidien, question quotidienne foot, culture foot, Ligue 1, Premier League, Champions League, Splitou, partage d'addition, partager la note, ticket de caisse, rembourser amis, scan ticket IA, dépenses de groupe">
     <link rel="alternate" hreflang="fr" href="https://eljietech.fr/" />
     <link rel="alternate" hreflang="en" href="https://eljietech.fr/?lang=en" />
     <link rel="alternate" hreflang="x-default" href="https://eljietech.fr/" />
@@ -55,8 +55,30 @@
                     }
                 },
                 {
+                    "@type": "MobileApplication",
+                    "name": "Splitou",
+                    "operatingSystem": "ANDROID, IOS",
+                    "applicationCategory": "FinanceApplication",
+                    "applicationSubCategory": "AI receipt scanning and bill splitting",
+                    "softwareVersion": "1.0",
+                    "description": "Splitou lit l'addition grâce à l'IA, puis affiche un QR code : les amis cochent ce qu'ils ont pris depuis une page web, sans installer d'application, et remboursent par Wero, Lydia, Revolut ou PayPal. Mode Groupes pour les voyages et la colocation.",
+                    "url": "https://eljietech.fr/splitou/",
+                    "image": "https://eljietech.fr/splitou/splitou-icon.png",
+                    "inLanguage": ["fr", "en"],
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "Eljie Tech",
+                        "url": "https://eljietech.fr"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "EUR"
+                    }
+                },
+                {
                     "@type": "WebSite",
-                    "name": "Eljie Tech - TikiStata",
+                    "name": "Eljie Tech - TikiStata & Splitou",
                     "url": "https://eljietech.fr/",
                     "inLanguage": ["fr", "en"]
                 },
@@ -534,6 +556,85 @@
             padding: 0 4px;
         }
 
+        /* ===== Splitou ===== */
+        .app-card.splitou {
+            --sp-grad: linear-gradient(135deg, #5B4BFF 0%, #9B4DFF 55%, #FF5C8A 100%);
+            background: radial-gradient(60% 80% at 100% 0%, rgba(91, 75, 255, 0.18), transparent 70%), linear-gradient(180deg, rgba(26, 22, 60, 0.45) 0%, rgba(5, 5, 8, 0.85) 100%);
+            border: 1px solid rgba(91, 75, 255, 0.3);
+        }
+
+        .app-card.splitou::before { background: var(--sp-grad); }
+
+        .app-card.splitou .app-tagline { background: var(--sp-grad); -webkit-background-clip: text; background-clip: text; }
+
+        .sp-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 92, 138, 0.12);
+            border: 1px solid rgba(255, 92, 138, 0.45);
+            color: #ff8fb0;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+
+        .sp-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #FF5C8A; animation: spPulse 1.6s infinite; }
+
+        @keyframes spPulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 92, 138, 0.6); }
+            100% { box-shadow: 0 0 0 10px rgba(255, 92, 138, 0); }
+        }
+
+        .sp-slogan { color: #b9a6ff; font-size: 1.1rem; margin-top: -10px; margin-bottom: 20px; font-weight: 500; }
+
+        .btn-store.sp-discover { background: linear-gradient(135deg, #5B4BFF 0%, #9B4DFF 55%, #FF5C8A 100%); color: #fff; }
+
+        .btn-store.sp-discover:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(91, 75, 255, 0.45); }
+
+        .btn-store.soon { opacity: 0.7; cursor: default; }
+
+        .btn-store.soon:hover { transform: none; box-shadow: none; }
+
+        .sp-icon {
+            width: 190px;
+            max-width: 100%;
+            border-radius: 26%;
+            box-shadow: 0 25px 50px rgba(91, 75, 255, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.08);
+            animation: spFloat 6s ease-in-out infinite;
+        }
+
+        @keyframes spFloat {
+            0%, 100% { transform: translateY(0) rotate(-2deg); }
+            50% { transform: translateY(-10px) rotate(2deg); }
+        }
+
+        .sp-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+
+        .sp-step {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.07);
+            border-radius: 18px;
+            padding: 18px;
+            transition: 0.3s;
+        }
+
+        .sp-step:hover { border-color: rgba(155, 77, 255, 0.55); transform: translateY(-3px); }
+
+        .sp-step b { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 10px; background: linear-gradient(135deg, #5B4BFF, #FF5C8A); margin-bottom: 8px; font-size: 0.9rem; }
+
+        .sp-step span { display: block; color: #ced4da; font-size: 0.95rem; }
+
+        .app-card.splitou .screenshot-card:hover { border-color: rgba(155, 77, 255, 0.6); }
+
+        @media (max-width: 900px) {
+            .sp-steps { grid-template-columns: repeat(2, 1fr); }
+        }
+
         @media (max-width: 768px) {
             .app-card {
                 padding: 30px;
@@ -641,6 +742,46 @@
             </div>
         </div>
 
+        <!-- ===== Splitou ===== -->
+        <div class="app-card splitou" id="splitou">
+            <div class="app-header-flex">
+                <div class="app-info">
+                    <div class="sp-badge"><span class="dot"></span><span id="sp-badge">Nouvelle app • Lancement en cours</span></div>
+                    <span class="app-tagline" id="sp-subtitle">Partage d'addition par IA</span>
+                    <h2>Splitou</h2>
+                    <h3 class="sp-slogan" id="sp-slogan">Photographiez. Partagez. On est quittes.</h3>
+                    <p id="sp-desc" class="app-description">Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, prix) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut ou PayPal. Le mode Groupes gère aussi les dépenses de voyage et de colocation.</p>
+
+                    <div class="store-buttons">
+                        <a href="https://apps.apple.com/app/id6820986023" target="_blank" class="btn-store apple" data-sp-store="ios"><i class="fab fa-apple" style="font-size: 1.4rem;"></i> <span class="sp-store-label">App Store</span></a>
+                        <a href="https://play.google.com/store/apps/details?id=app.splitou" target="_blank" class="btn-store google" data-sp-store="android"><i class="fab fa-google-play" style="font-size: 1.3rem;"></i> <span class="sp-store-label">Play Store</span></a>
+                        <a href="splitou/" class="btn-store sp-discover" id="sp-discover">Détails &rarr;</a>
+                    </div>
+                </div>
+                <div style="flex: 0.5; text-align: center; display: flex; justify-content: center; align-items: center;">
+                    <img src="splitou/splitou-icon.png" alt="Icône Splitou" class="sp-icon" width="190" height="190">
+                </div>
+            </div>
+
+            <div class="sp-steps">
+                <div class="sp-step"><b>1</b><span id="sp-step-1">Scannez l'addition, l'IA lit chaque article</span></div>
+                <div class="sp-step"><b>2</b><span id="sp-step-2">Montrez le QR code, zéro installation</span></div>
+                <div class="sp-step"><b>3</b><span id="sp-step-3">Chacun coche ce qu'il a pris, en direct</span></div>
+                <div class="sp-step"><b>4</b><span id="sp-step-4">Remboursé en un geste</span></div>
+            </div>
+
+            <div class="screenshots-preview" id="sp-shots-box" style="display: none;">
+                <p class="screenshots-title"><i class="fas fa-mobile-alt" style="color: #9B4DFF; margin-right: 8px;"></i><span id="sp-shots-title">Aperçu de l'application</span></p>
+                <div class="screenshots-grid" id="sp-shots"></div>
+            </div>
+
+            <div class="docs-grid">
+                <a href="https://splitou-app.web.app/privacy" target="_blank" class="doc-item sp-doc" data-path="privacy" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-shield-alt"></i><span id="sp-label-privacy">Confidentialité</span></a>
+                <a href="https://splitou-app.web.app/terms" target="_blank" class="doc-item sp-doc" data-path="terms" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-file-signature"></i><span id="sp-label-terms">Conditions d'utilisation</span></a>
+                <a href="https://splitou-app.web.app/support" target="_blank" class="doc-item sp-doc" data-path="support" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-life-ring"></i><span id="sp-label-support">Assistance</span></a>
+            </div>
+        </div>
+
         <div id="doc-viewer" class="text-display"></div>
     </div>
 
@@ -687,7 +828,18 @@
                 "label-privacy": "Confidentialité", "label-cgu": "CGU", "label-cgv": "CGV",
                 "btn-discover": "Détails \u2192",
                 "nav-mentions": "Mentions Légales", "contact-label": "Contact professionnel :",
-                "footer-rights": "Tous droits réservés.", "footer-acc": "Accessibilité : non conforme"
+                "footer-rights": "Tous droits réservés.", "footer-acc": "Accessibilité : non conforme",
+                "sp-badge": "Nouvelle app • Lancement en cours",
+                "sp-subtitle": "Partage d'addition par IA",
+                "sp-slogan": "Photographiez. Partagez. On est quittes.",
+                "sp-desc": "Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, prix) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut ou PayPal. Le mode Groupes gère aussi les dépenses de voyage et de colocation.",
+                "sp-discover": "Détails \u2192",
+                "sp-step-1": "Scannez l'addition, l'IA lit chaque article",
+                "sp-step-2": "Montrez le QR code, zéro installation",
+                "sp-step-3": "Chacun coche ce qu'il a pris, en direct",
+                "sp-step-4": "Remboursé en un geste",
+                "sp-shots-title": "Aperçu de l'application",
+                "sp-label-privacy": "Confidentialité", "sp-label-terms": "Conditions d'utilisation", "sp-label-support": "Assistance"
             },
             en: {
                 "page-title": "TikiStata 2.0 - Football, Data & AI | Eljie Tech",
@@ -710,7 +862,18 @@
                 "label-privacy": "Privacy Policy", "label-cgu": "Terms of Use", "label-cgv": "Terms of Sale",
                 "btn-discover": "Details \u2192",
                 "nav-mentions": "Legal Notice", "contact-label": "Business contact:",
-                "footer-rights": "All rights reserved.", "footer-acc": "Accessibility: non-compliant"
+                "footer-rights": "All rights reserved.", "footer-acc": "Accessibility: non-compliant",
+                "sp-badge": "New app • Launching now",
+                "sp-subtitle": "AI bill splitting",
+                "sp-slogan": "Snap. Share. Settled.",
+                "sp-desc": "Picked up the bill for everyone? Splitou reads the receipt with AI (venue, items, prices) and checks the total. Your friends scan a QR code, tick what they had from a simple web page — no app to install — and pay you back via Wero, Lydia, Revolut or PayPal. Groups mode also handles trip and flatshare expenses.",
+                "sp-discover": "Details \u2192",
+                "sp-step-1": "Snap the bill, AI reads every item",
+                "sp-step-2": "Show the QR code, zero install",
+                "sp-step-3": "Everyone ticks what they had, live",
+                "sp-step-4": "Paid back in one tap",
+                "sp-shots-title": "App preview",
+                "sp-label-privacy": "Privacy Policy", "sp-label-terms": "Terms of Use", "sp-label-support": "Support"
             }
         };
 
@@ -730,6 +893,38 @@
                     el.src = primarySrc;
                 }
             });
+            updateSplitou(lang);
+        }
+
+        // Splitou : passer à true quand la fiche correspondante est publique.
+        const SPLITOU_LIVE = { ios: false, android: false };
+
+        function updateSplitou(lang) {
+            document.querySelectorAll('[data-sp-store]').forEach(a => {
+                const live = SPLITOU_LIVE[a.dataset.spStore];
+                const name = a.dataset.spStore === 'ios' ? 'App Store' : 'Play Store';
+                a.classList.toggle('soon', !live);
+                if (!live) a.removeAttribute('href');
+                a.querySelector('.sp-store-label').textContent = live ? name : (lang === 'fr' ? 'Bientôt sur ' : 'Soon on ') + name;
+            });
+            document.querySelectorAll('.sp-doc').forEach(a => {
+                a.href = 'https://splitou-app.web.app/' + a.dataset.path + (lang === 'en' ? '?lang=en' : '');
+            });
+            const box = document.getElementById('sp-shots-box');
+            const grid = document.getElementById('sp-shots');
+            grid.innerHTML = '';
+            for (let i = 1; i <= 4; i++) {
+                const card = document.createElement('div');
+                card.className = 'screenshot-card';
+                card.style.display = 'none';
+                const img = new Image();
+                                img.alt = 'Splitou ' + i;
+                img.onload = () => { card.style.display = ''; box.style.display = ''; };
+                img.onerror = () => card.remove();
+                img.src = `splitou/screenshots/${lang}/${i}.png`;
+                card.appendChild(img);
+                grid.appendChild(card);
+            }
         }
 
         function setLang(lang) {

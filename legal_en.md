@@ -4,7 +4,7 @@
 
 
 
-Pursuant to Articles 6-III and 19 of French Law No. 2004-575 of June 21, 2004 for Confidence in the Digital Economy (LCEN), users of the website **eljietech.fr** and the mobile application **Ask TikiStata** are hereby informed of the present legal notice.
+Pursuant to Articles 6-III and 19 of French Law No. 2004-575 of June 21, 2004 for Confidence in the Digital Economy (LCEN), users of the website **eljietech.fr** and the mobile applications **Ask TikiStata** and **Splitou** are hereby informed of the present legal notice.
 
 
 
@@ -85,6 +85,12 @@ The technical infrastructure includes Firebase Cloud Messaging services for the 
 
 
 
+### 3.3 Application Hosting (Splitou)
+
+The Splitou backend (Firebase: database, functions and hosting of the guest page splitou-app.web.app) is hosted by **Google Ireland Limited** (Google Cloud Platform / Firebase), Gordon House, Barrow Street, Dublin 4, Ireland, in the europe-west1 region (Belgium).
+
+
+
 ---
 
 
@@ -100,6 +106,8 @@ The technical infrastructure includes Firebase Cloud Messaging services for the 
 * **DeepInfra** (open-source models, including OSS-120B)  
 
 * **Baseten** (DeepSeek V4 Flash model)
+
+* **Google Gemini via Vertex AI** (receipt reading in the Splitou app; photos are not stored)
 
 
 
