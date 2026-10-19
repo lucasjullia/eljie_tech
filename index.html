@@ -59,22 +59,23 @@
                     "name": "Splitou",
                     "operatingSystem": "ANDROID, IOS",
                     "applicationCategory": "FinanceApplication",
-                    "applicationSubCategory": "AI receipt scanning and bill splitting",
+                    "applicationSubCategory": "AI receipt scanning, bill splitting and group expense tracking",
                     "softwareVersion": "1.0",
-                    "description": "Splitou lit l'addition grâce à l'IA, puis affiche un QR code : les amis cochent ce qu'ils ont pris depuis une page web, sans installer d'application, et remboursent par Wero, Lydia, Revolut ou PayPal. Mode Groupes pour les voyages et la colocation.",
+                    "description": "Splitou lit l'addition grâce à l'IA (enseigne, articles, quantités, prix et remises), vérifie le total, puis affiche un QR code : les amis cochent ce qu'ils ont pris en direct depuis une page web, sans installer d'application, et remboursent par Wero, Lydia, Revolut, PayPal ou espèces. Mode Voyages & Groupes avec édition collaborative en direct, multi-devises automatique, statistiques, trophées et export PDF/CSV. Disponible en 7 langues.",
                     "url": "https://eljietech.fr/splitou/",
                     "image": "https://eljietech.fr/splitou/splitou-icon.png",
-                    "inLanguage": ["fr", "en"],
+                    "inLanguage": ["fr", "en", "es", "de", "it", "pt", "nl"],
                     "creator": {
                         "@type": "Organization",
                         "name": "Eljie Tech",
                         "url": "https://eljietech.fr"
                     },
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "0",
-                        "priceCurrency": "EUR"
-                    }
+                    "offers": [
+                        { "@type": "Offer", "name": "Gratuit", "price": "0", "priceCurrency": "EUR" },
+                        { "@type": "Offer", "name": "Pass Vacances (30 jours sans renouvellement)", "price": "2.99", "priceCurrency": "EUR" },
+                        { "@type": "Offer", "name": "Splitou Premium mensuel", "price": "1.99", "priceCurrency": "EUR" },
+                        { "@type": "Offer", "name": "Splitou Premium annuel", "price": "14.99", "priceCurrency": "EUR" }
+                    ]
                 },
                 {
                     "@type": "WebSite",
@@ -747,10 +748,10 @@
             <div class="app-header-flex">
                 <div class="app-info">
                     <div class="sp-badge"><span class="dot"></span><span id="sp-badge">Nouvelle app • Lancement en cours</span></div>
-                    <span class="app-tagline" id="sp-subtitle">Partage d'addition par IA</span>
+                    <span class="app-tagline" id="sp-subtitle">Partage d'addition & frais de groupe par IA</span>
                     <h2>Splitou</h2>
                     <h3 class="sp-slogan" id="sp-slogan">Photographiez. Partagez. On est quittes.</h3>
-                    <p id="sp-desc" class="app-description">Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, prix) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut ou PayPal. Le mode Groupes gère aussi les dépenses de voyage et de colocation.</p>
+                    <p id="sp-desc" class="app-description">Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, quantités, prix et remises) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris en direct depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut, PayPal ou espèces. Le mode Voyages & Groupes gère aussi vos dépenses partagées en temps réel : répartitions flexibles, édition collaborative en direct, conversion multi-devises, équilibrage intelligent des dettes, statistiques détaillées, 16 trophées à débloquer et export PDF/CSV. Disponible en 7 langues, en version gratuite, avec le Pass Vacances (30 jours sans renouvellement) ou Splitou Premium.</p>
 
                     <div class="store-buttons">
                         <a href="https://apps.apple.com/app/id6820986023" target="_blank" class="btn-store apple" data-sp-store="ios"><i class="fab fa-apple" style="font-size: 1.4rem;"></i> <span class="sp-store-label">App Store</span></a>
@@ -777,7 +778,8 @@
 
             <div class="docs-grid">
                 <a href="https://splitou-app.web.app/privacy" target="_blank" class="doc-item sp-doc" data-path="privacy" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-shield-alt"></i><span id="sp-label-privacy">Confidentialité</span></a>
-                <a href="https://splitou-app.web.app/terms" target="_blank" class="doc-item sp-doc" data-path="terms" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-file-signature"></i><span id="sp-label-terms">Conditions d'utilisation</span></a>
+                <a href="https://splitou-app.web.app/terms" target="_blank" class="doc-item sp-doc" data-path="terms" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-file-signature"></i><span id="sp-label-terms">CGU</span></a>
+                <a href="https://splitou-app.web.app/cgv" target="_blank" class="doc-item sp-doc" data-path="cgv" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-shopping-bag"></i><span id="sp-label-cgv">CGV</span></a>
                 <a href="https://splitou-app.web.app/support" target="_blank" class="doc-item sp-doc" data-path="support" style="text-decoration: none; color: inherit; display: block;"><i class="fas fa-life-ring"></i><span id="sp-label-support">Assistance</span></a>
             </div>
         </div>
@@ -796,7 +798,7 @@
                 <span class="footer-link" id="nav-mentions" onclick="navigateToDoc('mentions')">Mentions Légales</span>
             </div>
             <div class="legal-notices">
-                <span class="copyright-text">&copy; 2025 Eljie Tech. <span id="footer-rights">Tous droits
+                <span class="copyright-text">&copy; 2026 Eljie Tech. <span id="footer-rights">Tous droits
                         réservés.</span></span>
                 <span class="ei-mention">Lucas JULLIA EI</span>
                 <span class="acc-text" id="footer-acc">Accessibilité : non conforme</span>
@@ -830,16 +832,16 @@
                 "nav-mentions": "Mentions Légales", "contact-label": "Contact professionnel :",
                 "footer-rights": "Tous droits réservés.", "footer-acc": "Accessibilité : non conforme",
                 "sp-badge": "Nouvelle app • Lancement en cours",
-                "sp-subtitle": "Partage d'addition par IA",
+                "sp-subtitle": "Partage d'addition & frais de groupe par IA",
                 "sp-slogan": "Photographiez. Partagez. On est quittes.",
-                "sp-desc": "Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, prix) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut ou PayPal. Le mode Groupes gère aussi les dépenses de voyage et de colocation.",
+                "sp-desc": "Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, quantités, prix et remises) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris en direct depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut, PayPal ou espèces. Le mode Voyages & Groupes gère aussi vos dépenses partagées en temps réel : répartitions flexibles, édition collaborative en direct, conversion multi-devises, équilibrage intelligent des dettes, statistiques détaillées, 16 trophées à débloquer et export PDF/CSV. Disponible en 7 langues, en version gratuite, avec le Pass Vacances (30 jours sans renouvellement) ou Splitou Premium.",
                 "sp-discover": "Détails \u2192",
                 "sp-step-1": "Scannez l'addition, l'IA lit chaque article",
                 "sp-step-2": "Montrez le QR code, zéro installation",
                 "sp-step-3": "Chacun coche ce qu'il a pris, en direct",
                 "sp-step-4": "Remboursé en un geste",
                 "sp-shots-title": "Aperçu de l'application",
-                "sp-label-privacy": "Confidentialité", "sp-label-terms": "Conditions d'utilisation", "sp-label-support": "Assistance"
+                "sp-label-privacy": "Confidentialité", "sp-label-terms": "CGU", "sp-label-cgv": "CGV", "sp-label-support": "Assistance"
             },
             en: {
                 "page-title": "TikiStata 2.0 - Football, Data & AI | Eljie Tech",
@@ -864,16 +866,16 @@
                 "nav-mentions": "Legal Notice", "contact-label": "Business contact:",
                 "footer-rights": "All rights reserved.", "footer-acc": "Accessibility: non-compliant",
                 "sp-badge": "New app • Launching now",
-                "sp-subtitle": "AI bill splitting",
+                "sp-subtitle": "AI bill splitting & group expenses",
                 "sp-slogan": "Snap. Share. Settled.",
-                "sp-desc": "Picked up the bill for everyone? Splitou reads the receipt with AI (venue, items, prices) and checks the total. Your friends scan a QR code, tick what they had from a simple web page — no app to install — and pay you back via Wero, Lydia, Revolut or PayPal. Groups mode also handles trip and flatshare expenses.",
+                "sp-desc": "Picked up the bill for everyone? Splitou reads the receipt with AI (venue, items, quantities, prices and discounts) and checks the total. Your friends scan a QR code, tick what they had live from a simple web page — no app to install — and pay you back via Wero, Lydia, Revolut, PayPal or cash. Trips & Groups mode also handles shared expenses in real time: flexible splits, live collaborative editing, multi-currency conversion, smart debt simplification, detailed statistics, 16 unlockable trophies and PDF/CSV export. Available in 7 languages, for free, with the Vacation Pass (30 days, no auto-renewal) or Splitou Premium.",
                 "sp-discover": "Details \u2192",
                 "sp-step-1": "Snap the bill, AI reads every item",
                 "sp-step-2": "Show the QR code, zero install",
                 "sp-step-3": "Everyone ticks what they had, live",
                 "sp-step-4": "Paid back in one tap",
                 "sp-shots-title": "App preview",
-                "sp-label-privacy": "Privacy Policy", "sp-label-terms": "Terms of Use", "sp-label-support": "Support"
+                "sp-label-privacy": "Privacy Policy", "sp-label-terms": "Terms of Use", "sp-label-cgv": "Terms of Sale", "sp-label-support": "Support"
             }
         };
 

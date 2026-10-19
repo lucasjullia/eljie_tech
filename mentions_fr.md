@@ -96,7 +96,7 @@ Le backend de l'application Splitou (Firebase : base de données, fonctions, hé
 
 ## 4. DÉVELOPPEMENT ET TECHNOLOGIES UTILISÉES
 
-**Développement :** Application conçue et exploitée par l’Éditeur, notamment via la plateforme FlutterFlow. 
+**Développement :** Applications conçues et exploitées par l’Éditeur, notamment via le framework Flutter et la plateforme FlutterFlow.
 
 
 

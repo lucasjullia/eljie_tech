@@ -97,7 +97,7 @@ The Splitou backend (Firebase: database, functions and hosting of the guest page
 
 ## 4. DEVELOPMENT AND TECHNOLOGIES USED
 
-**Development:** The Application is designed and operated by the Publisher, notably using the FlutterFlow platform.
+**Development:** The Applications are designed and operated by the Publisher, notably using the Flutter framework and the FlutterFlow platform.
 
 
 
