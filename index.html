@@ -747,14 +747,14 @@
         <div class="app-card splitou" id="splitou">
             <div class="app-header-flex">
                 <div class="app-info">
-                    <div class="sp-badge"><span class="dot"></span><span id="sp-badge">Nouvelle app • Lancement en cours</span></div>
+                    <div class="sp-badge"><span class="dot"></span><span id="sp-badge">Disponible • App Store et Google Play</span></div>
                     <span class="app-tagline" id="sp-subtitle">Partage d'addition & frais de groupe par IA</span>
                     <h2>Splitou</h2>
                     <h3 class="sp-slogan" id="sp-slogan">Photographiez. Partagez. On est quittes.</h3>
                     <p id="sp-desc" class="app-description">Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, quantités, prix et remises) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris en direct depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut, PayPal ou espèces. Le mode Voyages & Groupes gère aussi vos dépenses partagées en temps réel : répartitions flexibles, édition collaborative en direct, conversion multi-devises, équilibrage intelligent des dettes, statistiques détaillées, 16 trophées à débloquer et export PDF/CSV. Disponible en 7 langues, en version gratuite, avec le Pass Vacances (30 jours sans renouvellement) ou Splitou Premium.</p>
 
                     <div class="store-buttons">
-                        <a href="https://apps.apple.com/app/id6820986023" target="_blank" class="btn-store apple" data-sp-store="ios"><i class="fab fa-apple" style="font-size: 1.4rem;"></i> <span class="sp-store-label">App Store</span></a>
+                        <a href="https://apps.apple.com/fr/app/splitou-ia-partage-de-frais/id6820986023" target="_blank" class="btn-store apple" data-sp-store="ios"><i class="fab fa-apple" style="font-size: 1.4rem;"></i> <span class="sp-store-label">App Store</span></a>
                         <a href="https://play.google.com/store/apps/details?id=app.splitou" target="_blank" class="btn-store google" data-sp-store="android"><i class="fab fa-google-play" style="font-size: 1.3rem;"></i> <span class="sp-store-label">Play Store</span></a>
                         <a href="splitou/" class="btn-store sp-discover" id="sp-discover">Détails &rarr;</a>
                     </div>
@@ -831,7 +831,7 @@
                 "btn-discover": "Détails \u2192",
                 "nav-mentions": "Mentions Légales", "contact-label": "Contact professionnel :",
                 "footer-rights": "Tous droits réservés.", "footer-acc": "Accessibilité : non conforme",
-                "sp-badge": "Nouvelle app • Lancement en cours",
+                "sp-badge": "Disponible • App Store et Google Play",
                 "sp-subtitle": "Partage d'addition & frais de groupe par IA",
                 "sp-slogan": "Photographiez. Partagez. On est quittes.",
                 "sp-desc": "Vous avez réglé l'addition pour tout le monde ? Splitou lit le ticket grâce à l'IA (enseigne, articles, quantités, prix et remises) et vérifie le total. Vos amis scannent un QR code, cochent ce qu'ils ont pris en direct depuis une simple page web — sans installer d'application — et vous remboursent par Wero, Lydia, Revolut, PayPal ou espèces. Le mode Voyages & Groupes gère aussi vos dépenses partagées en temps réel : répartitions flexibles, édition collaborative en direct, conversion multi-devises, équilibrage intelligent des dettes, statistiques détaillées, 16 trophées à débloquer et export PDF/CSV. Disponible en 7 langues, en version gratuite, avec le Pass Vacances (30 jours sans renouvellement) ou Splitou Premium.",
@@ -865,7 +865,7 @@
                 "btn-discover": "Details \u2192",
                 "nav-mentions": "Legal Notice", "contact-label": "Business contact:",
                 "footer-rights": "All rights reserved.", "footer-acc": "Accessibility: non-compliant",
-                "sp-badge": "New app • Launching now",
+                "sp-badge": "Available now • App Store and Google Play",
                 "sp-subtitle": "AI bill splitting & group expenses",
                 "sp-slogan": "Snap. Share. Settled.",
                 "sp-desc": "Picked up the bill for everyone? Splitou reads the receipt with AI (venue, items, quantities, prices and discounts) and checks the total. Your friends scan a QR code, tick what they had live from a simple web page — no app to install — and pay you back via Wero, Lydia, Revolut, PayPal or cash. Trips & Groups mode also handles shared expenses in real time: flexible splits, live collaborative editing, multi-currency conversion, smart debt simplification, detailed statistics, 16 unlockable trophies and PDF/CSV export. Available in 7 languages, for free, with the Vacation Pass (30 days, no auto-renewal) or Splitou Premium.",
@@ -899,14 +899,20 @@
         }
 
         // Splitou : passer à true quand la fiche correspondante est publique.
-        const SPLITOU_LIVE = { ios: false, android: false };
+        const SPLITOU_LIVE = { ios: true, android: true };
 
         function updateSplitou(lang) {
             document.querySelectorAll('[data-sp-store]').forEach(a => {
                 const live = SPLITOU_LIVE[a.dataset.spStore];
                 const name = a.dataset.spStore === 'ios' ? 'App Store' : 'Play Store';
                 a.classList.toggle('soon', !live);
-                if (!live) a.removeAttribute('href');
+                if (!live) {
+                    a.removeAttribute('href');
+                } else {
+                    a.href = a.dataset.spStore === 'ios'
+                        ? 'https://apps.apple.com/fr/app/splitou-ia-partage-de-frais/id6820986023'
+                        : 'https://play.google.com/store/apps/details?id=app.splitou';
+                }
                 a.querySelector('.sp-store-label').textContent = live ? name : (lang === 'fr' ? 'Bientôt sur ' : 'Soon on ') + name;
             });
             document.querySelectorAll('.sp-doc').forEach(a => {
