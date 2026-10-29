@@ -82,6 +82,10 @@
                         "Export complet des dépenses et des comptes en PDF imprimable et CSV (Excel)",
                         "Application et page web invités disponibles en 7 langues (FR, EN, ES, DE, IT, PT, NL)"
                     ],
+                    "isSimilarTo": [
+                        { "@type": "SoftwareApplication", "name": "Tricount", "applicationCategory": "FinanceApplication" },
+                        { "@type": "SoftwareApplication", "name": "Splitwise", "applicationCategory": "FinanceApplication" }
+                    ],
                     "offers": [
                         { "@type": "Offer", "name": "Gratuit (quota mensuel de scans IA + scans bonus via vidéo publicitaire)", "price": "0", "priceCurrency": "EUR" },
                         { "@type": "Offer", "name": "Pass Vacances (30 jours d'accès Premium sans renouvellement automatique)", "price": "2.99", "priceCurrency": "EUR" },
@@ -580,6 +584,15 @@
             </div>
         </section>
 
+
+        <section id="tricount-compare" class="reveal" style="margin: 50px 0 20px;">
+            <div class="card" style="background: linear-gradient(160deg, rgba(91, 75, 255, .25), rgba(255, 92, 138, .12)); border: 1px solid rgba(155, 77, 255, .5); padding: 34px 28px; text-align: center; border-radius: 24px;">
+                <span class="plan-badge" style="background: rgba(155, 77, 255, .25); border-color: rgba(155, 77, 255, .55); color: #dec9ff; margin: 0 auto 12px; display: inline-block;" data-i18n="comp-badge">Alternative #1 à Tricount</span>
+                <h2 style="font-size: clamp(1.6rem, 3.2vw, 2.3rem); margin-bottom: 12px; letter-spacing: -0.5px;" data-i18n="comp-h2">Pourquoi Splitou remplace avantageusement Tricount</h2>
+                <p style="max-width: 680px; margin: 0 auto 22px; color: var(--muted); font-size: 1.05rem; line-height: 1.6;" data-i18n="comp-p">Contrairement à Tricount où il faut tout saisir et diviser à la main, Splitou scanne l'addition par IA ligne par ligne et permet à vos amis de cocher leur part depuis leur navigateur, sans installer d'app.</p>
+                <a href="alternative-tricount/" class="btn-store primary" id="btn-tricount-compare" style="margin: 0 auto;"><i class="fas fa-scale-balanced"></i> <span data-i18n="comp-btn">Consulter le grand comparatif Splitou vs Tricount vs Splitwise &rarr;</span></a>
+            </div>
+        </section>
         <section id="pricing" class="reveal">
             <h2 class="section-title" data-i18n="price-title">Gratuit, Pass Vacances ou Premium</h2>
             <p class="section-sub" data-i18n="price-sub">Aucune publicité pendant que vos amis vous remboursent, même en version gratuite.</p>
@@ -640,6 +653,7 @@
             <h2 class="section-title" data-i18n="faq-title">Questions fréquentes</h2>
             <p class="section-sub"></p>
             <div class="faq">
+                <details><summary data-i18n="q-tricount">Splitou est-il une bonne alternative à Tricount et Splitwise ?</summary><p data-i18n="a-tricount">Oui. Splitou est l'alternative moderne à Tricount pensée pour l'addition au restaurant : l'IA lit le ticket article par article, vos amis scannent un QR code et cochent leurs plats en direct sans rien installer, et vous remboursent par Wero, Lydia, Revolut ou PayPal. Le mode Voyages &amp; Groupes gère aussi les vacances comme Tricount, sans limite de dépenses. <a href="alternative-tricount/" id="link-tricount">Consulter notre grand comparatif Splitou vs Tricount vs Splitwise →</a></p></details>
                 <details><summary data-i18n="q1">Mes amis doivent-ils installer Splitou ?</summary><p data-i18n="a1">Non. Ils scannent le QR code avec l'appareil photo de leur téléphone : une page web s'ouvre dans leur navigateur (disponible en 7 langues), sans application ni compte à créer.</p></details>
                 <details><summary data-i18n="q2">Et si l'IA se trompe sur un article ?</summary><p data-i18n="a2">Splitou compare la somme des articles au total payé et vous signale tout écart. Vous pouvez corriger, ajouter ou supprimer une ligne avant de partager.</p></details>
                 <details><summary data-i18n="q3">Splitou gère-t-il le paiement ?</summary><p data-i18n="a3">Non : Splitou affiche vos coordonnées (Wero, Lydia, Revolut, PayPal, virement…) et le montant exact, mais le remboursement se fait dans l'application de paiement de chacun ou en espèces. Splitou ne touche jamais à votre argent.</p></details>
@@ -653,6 +667,7 @@
             <h2 class="section-title" data-i18n="docs-title">Documentation & assistance</h2>
             <p class="section-sub"></p>
             <div class="docs">
+                <a class="card doc" id="doc-tricount" href="alternative-tricount/"><i class="fas fa-scale-balanced"></i><span data-i18n="dtricount">Alternative à Tricount</span></a>
                 <a class="card doc" id="doc-privacy" href="https://splitou-app.web.app/privacy" target="_blank" rel="noopener"><i class="fas fa-shield-alt"></i><span data-i18n="d1">Politique de confidentialité</span></a>
                 <a class="card doc" id="doc-terms" href="https://splitou-app.web.app/terms" target="_blank" rel="noopener"><i class="fas fa-file-signature"></i><span data-i18n="d2">Conditions d'utilisation (CGU)</span></a>
                 <a class="card doc" id="doc-cgv" href="https://splitou-app.web.app/cgv" target="_blank" rel="noopener"><i class="fas fa-shopping-bag"></i><span data-i18n="dcgv">Conditions de vente (CGV)</span></a>
@@ -689,6 +704,13 @@
                 "dl-ios": "Télécharger sur l'", "dl-android": "Disponible sur", soon: "Bientôt sur",
                 "soon-note": "Disponible dès maintenant sur iPhone et Android.",
                 chip1: "Ticket lu en quelques secondes", chip2: "0 installation pour vos amis",
+                "comp-badge": "Alternative #1 à Tricount",
+                "comp-h2": "Pourquoi Splitou remplace avantageusement Tricount",
+                "comp-p": "Contrairement à Tricount où il faut tout saisir et diviser à la main, Splitou scanne l'addition par IA ligne par ligne et permet à vos amis de cocher leur part depuis leur navigateur, sans installer d'app.",
+                "comp-btn": "Consulter le grand comparatif Splitou vs Tricount vs Splitwise →",
+                "q-tricount": "Splitou est-il une bonne alternative à Tricount et Splitwise ?",
+                "a-tricount": "Oui. Splitou est l'alternative moderne à Tricount pensée pour l'addition au restaurant : l'IA lit le ticket article par article, vos amis scannent un QR code et cochent leurs plats en direct sans rien installer, et vous remboursent par Wero, Lydia, Revolut ou PayPal. Le mode Voyages & Groupes gère aussi les vacances comme Tricount, sans limite de dépenses. Consultez notre comparatif complet ci-dessous.",
+                dtricount: "Alternative à Tricount",
                 "how-title": "Comment ça marche", "how-sub": "Quatre étapes, moins d'une minute, et plus personne ne fait de calcul de tête au restaurant.",
                 s1t: "Scannez le ticket", s1p: "L'IA lit l'enseigne, chaque article, les quantités, les prix et les remises, puis vérifie que la somme correspond au total payé.",
                 s2t: "Montrez le QR code", s2p: "Vos amis le scannent avec l'appareil photo : une page web s'ouvre en direct, sans application ni compte à créer.",
@@ -742,6 +764,13 @@
                 "dl-ios": "Download on the", "dl-android": "Get it on", soon: "Coming soon on",
                 "soon-note": "Available now on iPhone and Android.",
                 chip1: "Receipt read in seconds", chip2: "Zero install for friends",
+                "comp-badge": "#1 Tricount Alternative",
+                "comp-h2": "Why Splitou is the Modern Alternative to Tricount",
+                "comp-p": "Unlike Tricount where every expense and division must be keyed in manually, Splitou scans receipts line by line with AI so friends tick what they had from their browser with zero app download.",
+                "comp-btn": "Read the Full Splitou vs Tricount vs Splitwise Comparison →",
+                "q-tricount": "Is Splitou a good alternative to Tricount and Splitwise?",
+                "a-tricount": "Yes. Splitou is the modern alternative to Tricount built for restaurant bills: AI reads the receipt item by item, friends scan a QR code and tick what they had live without installing an app, and pay you back via Revolut, PayPal, Wero, Lydia or cash. Trips & Groups mode also handles vacations like Tricount, with zero expense limits.",
+                dtricount: "Tricount Alternative",
                 "how-title": "How it works", "how-sub": "Four steps, under a minute, and no more mental maths at the restaurant.",
                 s1t: "Scan the receipt", s1p: "AI reads the venue, every item, quantities, prices and discounts, then checks the sum matches the total you paid.",
                 s2t: "Show the QR code", s2p: "Friends scan it with their camera: a live web page opens, no app and no account needed.",
