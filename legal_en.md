@@ -1,6 +1,6 @@
 # LEGAL NOTICE
 
-**Effective as of September 12, 2026**
+**Effective as of November 16, 2026**
 
 
 

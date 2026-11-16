@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES D’UTILISATION (CGU)
 
-**Dernière mise à jour : 12 septembre 2026**
+**Dernière mise à jour : 16 novembre 2026**
 
 
 
@@ -80,7 +80,9 @@ L’Application propose un assistant conversationnel basé sur l’intelligence 
 
 * de modèles d’IA exploités via des prestataires externes (notamment DeepInfra avec le modèle OSS-120B et Baseten avec le modèle DeepSeek V4 Flash).
 
-L'Application inclut un service de notifications push destiné à informer l'Utilisateur de la disponibilité de ses quotas quotidiens ou de l'actualité sportive marquante. Ce service vise à faciliter l'engagement de l'Utilisateur avec l'assistant conversationnel.
+L'Application inclut également des fonctionnalités communautaires et ludiques : l'analyse tactique d'avant-match (points clés), la **Question Quotidienne** (quiz de culture foot avec système de séries et **Boucliers de série / Streak Freeze**), le mini-jeu **TikiDribble** (avec classement hebdomadaire public basé sur le pseudo), un système de **badges et missions d'exploration** offrant des packs de questions bonus temporaires, ainsi que des cartes de partage.
+
+L'Application propose un service de notifications push paramétrable (rappels de quotas, quiz quotidien, notifications d'avant-match de club favori et rappels d'activité), activable et désactivable à tout moment depuis les paramètres.
 
 L'Utilisateur a la possibilité de dicter ses questions au micro. Les enregistrements vocaux ne sont jamais collectés, transmis ni stockés sur les serveurs de l'Éditeur.
 
@@ -122,9 +124,9 @@ Les réponses fournies par l'IA :
 
 L’accès aux questions est soumis à des quotas journaliers et des fonctionnalités associées, selon la formule choisie :
 
-1. **Gratuit :** quota quotidien de base financé par la publicité (vidéos récompensées pour débloquer des questions au-delà), jusqu'à 4 questions par discussion.
-2. **Captain (1,99€/mois, 1er mois d'essai gratuit, sans engagement) :** permet d'obtenir 15 questions par jour sans aucune publicité (dans la limite de ces 15 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 5 interactions questions-réponses dans la même discussion.
-3. **Legend (2,99€/mois, 1er mois d'essai gratuit, sans engagement) :** permet d'obtenir 30 questions par jour sans aucune publicité (dans la limite de ces 30 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 7 interactions questions-réponses dans la même discussion.
+1. **Gratuit :** quota quotidien de base financé par la publicité (le visionnage d'une vidéo récompensée ajoute 3 questions supplémentaires sans supprimer l'affichage des publicités), jusqu'à 4 questions par discussion.
+2. **Captain (1,99€/mois ou 17,99€/an, 7 jours d'essai gratuit, sans engagement) :** permet d'obtenir 15 questions par jour sans aucune publicité (dans la limite de ces 15 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 5 interactions questions-réponses dans la même discussion.
+3. **Legend (2,99€/mois ou 26,99€/an, 7 jours d'essai gratuit, sans engagement) :** permet d'obtenir 30 questions par jour sans aucune publicité (dans la limite de ces 30 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 7 interactions questions-réponses dans la même discussion.
 4. **Pack de questions (one-shot) :** pack de 15 questions supplémentaires (0,99€ en achat ponctuel, sans engagement).
 
 La longueur maximale de chaque discussion (nombre de questions par discussion) varie selon le plan : 4 questions (Gratuit), 5 questions (Captain), et 7 questions (Legend).

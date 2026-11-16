@@ -1,6 +1,6 @@
 # POLITIQUE DE CONFIDENTIALITÉ
 
-**Dernière mise à jour : 12 septembre 2026**
+**Dernière mise à jour : 16 novembre 2026**
 
 
 
@@ -53,7 +53,9 @@ L’Éditeur collecte uniquement les données strictement nécessaires au foncti
 
 * Identifiant utilisateur unique (via Firebase Authentication)
 
-* Pseudo choisi par l'Utilisateur lors de l'inscription
+* Pseudo choisi par l'Utilisateur lors de l'inscription (affiché publiquement dans le classement hebdomadaire de **TikiDribble** lorsque l'Utilisateur participe au mini-jeu)
+
+* Club favori sélectionné et statistiques de progression ludique (série du Quiz Quotidien, boucliers de série, meilleur score TikiDribble, badges débloqués)
 
 * Jetons de notification (FCM Tokens) : identifiants techniques uniques générés par le service Firebase Cloud Messaging permettant l'envoi de messages de service et d'informations sur l'appareil de l'Utilisateur
 
@@ -86,9 +88,9 @@ L’Éditeur collecte uniquement les données strictement nécessaires au foncti
 
 
 
-### 2.4 Données de modération et de sécurité
+### 2.4 Données de modération, retours qualité et télémétrie technique
 
-En cas de signalement via le bouton « Flag » ou de feedback négatif (pouce vers le bas), le message concerné, le motif du signalement et des métadonnées techniques peuvent être conservés à des fins de modération, de sécurité et d’amélioration du service.
+En cas de signalement via le bouton « Flag » ou d'évaluation d'une réponse (pouce vers le haut `thumbs_up` ou pouce vers le bas `thumbs_down`), la question, la réponse concernée, la note attribuée et les métadonnées techniques associées peuvent être conservées à des fins de modération, de sécurité et d'amélioration de la pertinence du service. Des journaux techniques d'usage API (nombre de jetons, modèle utilisé, durée d'exécution, niveau d'offre) sont également enregistrés à des fins de pilotage technique.
 
 
 

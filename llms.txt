@@ -19,12 +19,14 @@ It acts as an intelligent conversational agent and visual data engine covering v
   - *Stat MCQ*: Multiple-choice statistical trivia with 4 options.
   - *True/False (Over/Under)*: Predict whether a player or team stat is above or below a given threshold.
   - *Streaks & Rewards*: Answering correctly 2 days in a row earns 1 bonus question for the TikiStata AI agent. Active streaks and personal records are tracked.
-- **Gamification (Badges & Trophies)**: Users collect virtual achievement badges and trophies by exploring statistical themes with the AI.
+- **Pre-Match Tactical Key Points & Favorites**: Club selection unlocks upcoming fixture schedules and hourly updated pre-match tactical insights (form splits, xG efficiency, money-time trends).
+- **Daily Quiz Streak Freeze & TikiDribble Weekly League**: Protect quiz streaks with Streak Freeze shields and compete on the weekly TikiDribble arcade leaderboard.
+- **Gamification & Viral Sharing**: Badges and 8-theme exploration missions (thresholds 3/15/50/150) reward bonus question packs; one-tap spoiler-free quiz cards, dribble scores, and chart exports.
 
 ## Pricing & Subscription Plans
 - **Free Tier**: Daily usage quota with ads (and rewarded videos to unlock more questions).
-- **Captain Subscription**: €1.99/month, 1st month free trial, no commitment. 15 questions/day ad-free (rewarded video required beyond daily quota), up to 5 Q&A turns per thread.
-- **Legend Subscription**: €2.99/month, 1st month free trial, no commitment. 30 questions/day ad-free (rewarded video required beyond daily quota), up to 7 Q&A turns per thread.
+- **Captain Subscription**: €1.99/month or €17.99/year, 7-day free trial, no commitment. 15 questions/day ad-free (rewarded video required beyond daily quota), up to 5 Q&A turns per thread.
+- **Legend Subscription**: €2.99/month or €26.99/year, 7-day free trial, no commitment. 30 questions/day ad-free (rewarded video required beyond daily quota), up to 7 Q&A turns per thread.
 - **One-Shot Question Pack**: €0.99 for 15 additional consumable questions (one-time purchase).
 
 ## Official Links & Resources

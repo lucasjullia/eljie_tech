@@ -1,6 +1,6 @@
 # CONDITIONS GÉNÉRALES DE VENTE (CGV)
 
-**Dernière mise à jour : 12 septembre 2026**
+**Dernière mise à jour : 16 novembre 2026**
 
 
 
@@ -61,12 +61,12 @@ Les présentes CGV ont pour objet de définir les conditions dans lesquelles l�
 
 L’Application propose les produits suivants, via la plateforme **RevenueCat** :
 
-### 3.1 Abonnements (sans engagement, 1er mois d'essai gratuit)
+### 3.1 Abonnements (sans engagement, 7 jours d'essai gratuit)
 
 * **Captain :** permet d'obtenir 15 questions par jour, sans aucune publicité (dans la limite des 15 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 5 interactions questions-réponses dans la même discussion.
 * **Legend :** permet d'obtenir 30 questions par jour, sans aucune publicité (dans la limite des 30 questions par jour ; visionnage d'une vidéo requis pour prolonger au-delà), et jusqu'à 7 interactions questions-réponses dans la même discussion.
 
-Ces abonnements sont conclus sans engagement et font l'objet d'un premier mois d'essai gratuit.
+Ces abonnements sont disponibles en formule mensuelle ou annuelle, sans engagement, et bénéficient d'une période de 7 jours d'essai gratuit.
 
 ### 3.2 Achats consommables (one-shot)
 
@@ -78,8 +78,8 @@ Ces abonnements sont conclus sans engagement et font l'objet d'un premier mois d
 
 Les prix sont indiqués en euros (€), toutes taxes comprises (TTC). Pour les Utilisateurs situés hors zone euro, les prix sont automatiquement convertis et affichés dans la devise locale par l’App Store ou le Google Play Store.
 
-* **Captain :** 1,99€ par mois (1er mois d'essai gratuit, sans engagement)
-* **Legend :** 2,99€ par mois (1er mois d'essai gratuit, sans engagement)
+* **Captain :** 1,99€ par mois ou 17,99€ par an (7 jours d'essai gratuit, sans engagement)
+* **Legend :** 2,99€ par mois ou 26,99€ par an (7 jours d'essai gratuit, sans engagement)
 
 * **Pack de 15 questions supplémentaires (one-shot) :** 0,99€ en achat unique
 
@@ -169,11 +169,11 @@ En conséquence, aucun remboursement ne pourra être exigé après l’activatio
 
 ### 8.1 Durée et engagement
 
-Les abonnements sont souscrits sans engagement de durée, pour une période mensuelle avec tacite reconduction pour des périodes successives identiques. Le compte App Store ou Google Play de l'Utilisateur sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours, en indiquant le coût du renouvellement.
+Les abonnements sont souscrits sans engagement de durée, pour une période mensuelle ou annuelle avec tacite reconduction pour des périodes successives identiques. Le compte App Store ou Google Play de l'Utilisateur sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours, en indiquant le coût du renouvellement.
 
 ### 8.2 Période d'essai gratuit
 
-Les abonnements Captain et Legend bénéficient d'un premier (1er) mois d'essai gratuit. Durant cette période d'essai gratuit, l'Utilisateur accède à l'ensemble des avantages du forfait sans être débité. L'Utilisateur peut résilier son abonnement à tout moment pendant la période d'essai gratuit, au moins 24 heures avant la fin de celle-ci, sans être facturé. À l'issue du 1er mois d'essai gratuit, et en l'absence de résiliation préalable, l'abonnement se poursuit automatiquement au tarif mensuel en vigueur (1,99€/mois pour Captain, 2,99€/mois pour Legend).
+Les abonnements Captain et Legend bénéficient d'une période de 7 jours d'essai gratuit. Durant cette période d'essai gratuit, l'Utilisateur accède à l'ensemble des avantages du forfait sans être débité. L'Utilisateur peut résilier son abonnement à tout moment pendant la période d'essai gratuit, au moins 24 heures avant la fin de celle-ci, sans être facturé. À l'issue des 7 jours d'essai gratuit, et en l'absence de résiliation préalable, l'abonnement se poursuit automatiquement au tarif en vigueur (1,99€/mois ou 17,99€/an pour Captain, 2,99€/mois ou 26,99€/an pour Legend).
 
 ### 8.3 Résiliation
 

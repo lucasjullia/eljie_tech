@@ -1,6 +1,6 @@
 # GENERAL TERMS AND CONDITIONS OF SALE (GTC)
 
-**Last updated: September 12, 2026**
+**Last updated: November 16, 2026**
 
 
 
@@ -63,18 +63,14 @@ The purpose of these GTC is to define the terms and conditions under which the P
 
 ## 3. DIGITAL PRODUCTS AND SERVICES OFFERED
 
-
-
-## 3. DIGITAL PRODUCTS AND SERVICES OFFERED
-
 The Application offers the following products via the **RevenueCat** platform:
 
-### 3.1 Subscriptions (no commitment, 1st month free trial)
+### 3.1 Subscriptions (no commitment, 7-day free trial)
 
 * **Captain:** grants 15 questions per day, completely ad-free (within the limit of 15 daily questions; watching a video is required to extend beyond), and up to 5 Q&A interactions within the same discussion thread.
 * **Legend:** grants 30 questions per day, completely ad-free (within the limit of 30 daily questions; watching a video is required to extend beyond), and up to 7 Q&A interactions within the same discussion thread.
 
-These subscriptions are non-binding (no commitment) and include a first month free trial.
+These subscriptions are available on a monthly or annual basis, non-binding (no commitment), and include a 7-day free trial.
 
 ### 3.2 Consumable purchases (one-shot)
 
@@ -86,8 +82,8 @@ These subscriptions are non-binding (no commitment) and include a first month fr
 
 Prices are indicated in euros (€), all taxes included (TTC). For Users located outside the euro zone, prices are automatically converted and displayed in the local currency by the App Store or Google Play Store.
 
-* **Captain:** €1.99 per month (1st month free trial, no commitment)  
-* **Legend:** €2.99 per month (1st month free trial, no commitment)  
+* **Captain:** €1.99 per month or €17.99 per year (7-day free trial, no commitment)  
+* **Legend:** €2.99 per month or €26.99 per year (7-day free trial, no commitment)  
 
 * **Pack of 15 additional questions (one-shot):** €0.99 (one-time purchase)  
 
@@ -179,11 +175,11 @@ As a result, no refund may be claimed after activation of a subscription or use 
 
 ### 8.1 Term and commitment
 
-Subscriptions are non-binding (no commitment), contracted on a monthly basis, and automatically renewed for successive identical periods. The User's App Store or Google Play account will be charged for renewal within 24 hours prior to the end of the current period, indicating the cost of the renewal.
+Subscriptions are non-binding (no commitment), contracted on a monthly or annual basis, and automatically renewed for successive identical periods. The User's App Store or Google Play account will be charged for renewal within 24 hours prior to the end of the current period, indicating the cost of the renewal.
 
 ### 8.2 Free trial period
 
-Captain and Legend subscriptions include a first month free trial (1 month). During this trial period, the User has full access to all features of the selected subscription plan without being charged. The User may cancel at any time during the trial period, at least 24 hours before the end of the free trial, at no cost. If not cancelled prior to the end of the 1-month trial, the subscription automatically renews as a paid monthly subscription at the current rate (€1.99/month for Captain, €2.99/month for Legend).
+Captain and Legend subscriptions include a 7-day free trial. During this trial period, the User has full access to all features of the selected subscription plan without being charged. The User may cancel at any time during the trial period, at least 24 hours before the end of the free trial, at no cost. If not cancelled prior to the end of the 7-day trial, the subscription automatically renews at the current rate (€1.99/month or €17.99/year for Captain, €2.99/month or €26.99/year for Legend).
 
 ### 8.3 Cancellation
 

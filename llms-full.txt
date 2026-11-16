@@ -42,13 +42,15 @@ TikiStata features a fun daily football trivia game to test user football knowle
 - **Over/Under True-False (Défi Vrai/Faux)**: Predict whether a specific player or team stat is above or below a given threshold.
 - **Streak & Rewards System**: Answering correctly 2 days in a row earns 1 free bonus question to ask the TikiStata AI. Active streak records are tracked and displayed.
 
-### 5. Gamification & Badge Rewards
-Users unlock virtual achievement badges across various statistical categories (transfer market history, player achievements, club derby records) as they explore the database and complete daily challenges.
+### 5. Pre-Match Key Points, TikiDribble & Badge Rewards
+- **Pre-Match Tactical Key Points**: Hourly updated team splits, xG efficiency, and match-day tactical alerts anchored around the user's favorite club.
+- **TikiDribble Weekly Leaderboard**: Arcade dribbling mini-game playable anytime with global percentile ranking and weekly competitions.
+- **Streak Freeze & Exploration Missions**: Daily Quiz Streak Freeze protection, 8-theme badge milestones (3/15/50/150), temporary bonus question packs, and spoiler-free result sharing cards.
 
 ### 6. Pricing & Subscription Plans
 - **Free Plan**: Free download with daily quota supported by ads/rewarded videos, up to 4 questions per discussion thread.
-- **Captain Plan (€1.99/month)**: 1st month free trial, no commitment. 15 questions per day without any ads (rewarded video required beyond the 15 questions), up to 5 Q&A turns per discussion thread.
-- **Legend Plan (€2.99/month)**: 1st month free trial, no commitment. 30 questions per day without any ads (rewarded video required beyond the 30 questions), up to 7 Q&A turns per discussion thread.
+- **Captain Plan (€1.99/month or €17.99/year)**: 7-day free trial, no commitment. 15 questions per day without any ads (rewarded video required beyond the 15 questions), up to 5 Q&A turns per discussion thread.
+- **Legend Plan (€2.99/month or €26.99/year)**: 7-day free trial, no commitment. 30 questions per day without any ads (rewarded video required beyond the 30 questions), up to 7 Q&A turns per discussion thread.
 - **Consumable Question Pack (€0.99)**: One-shot purchase of 15 additional questions, usable immediately without subscription commitment.
 
 ## Technical Architecture & Privacy Standards
