@@ -129,6 +129,10 @@
             font-family: 'Segoe UI', Roboto, sans-serif;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             background-color: var(--dark-bg);
             color: var(--light-text);
@@ -558,14 +562,46 @@
 
         .sample-lock {
             margin-top: auto;
-            font-size: 0.78rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+            max-width: 100%;
+            font-size: 0.75rem;
             font-weight: 600;
             color: #f432a5;
             background: rgba(244, 50, 165, 0.12);
             border: 1px solid rgba(244, 50, 165, 0.3);
-            padding: 5px 10px;
+            padding: 5px 11px;
             border-radius: 999px;
             align-self: flex-start;
+            text-decoration: none;
+            transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        a.sample-lock:hover,
+        .sample-lock-stores a:hover {
+            color: #ffffff;
+        }
+
+        a.sample-lock:hover {
+            background: rgba(244, 50, 165, 0.22);
+            border-color: rgba(244, 50, 165, 0.55);
+            transform: translateY(-1px);
+        }
+
+        .sample-lock-stores a {
+            color: #ff66c4;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 700;
+        }
+
+        .sample-lock-sep {
+            color: rgba(255, 255, 255, 0.35);
+            font-weight: 400;
         }
     </style>
 </head>
@@ -650,18 +686,18 @@
             <div class="samples-grid">
                 <article class="sample-card">
                     <div class="sample-q">« Compare Bukayo Saka et Lamine Yamal cette saison »</div>
-                    <p class="sample-a">Benchmark poste par poste calculé sur nos données vérifiées : passes clés, xA/90 min, dribbles réussis et percentiles comparés au Top 5 européen.</p>
-                    <span class="sample-lock">🔒 Radar interactif complet dans l'app</span>
+                    <p class="sample-a">Benchmark poste par poste calculé sur nos données vérifiées : buts, passes décisives, passes clés, dribbles réussis et percentiles comparés au Top 5 européen.</p>
+                    <a href="#store-links" class="sample-lock">📊 Radar interactif dans l'app</a>
                 </article>
                 <article class="sample-card">
                     <div class="sample-q">« Points clés d'avant-match : PSG vs Marseille »</div>
                     <p class="sample-a">Tendances récentes à domicile/extérieur, efficacité xG, intensité dans le dernier quart d'heure et ratios tactiques disponibles avant le coup d'envoi.</p>
-                    <span class="sample-lock">⚡ Actualisé chaque heure sur iOS &amp; Android</span>
+                    <a href="#store-links" class="sample-lock">⚡ MàJ horaire · iOS &amp; Android</a>
                 </article>
                 <article class="sample-card">
-                    <div class="sample-q">« Top buteurs d'Europe sur coup franc depuis 2016 »</div>
+                    <div class="sample-q">« Top buteurs en Ligue des Champions depuis 2016 »</div>
                     <p class="sample-a">Requête historique multi-saisons sans hallucination accompagnée d'un classement visuel exportable en image.</p>
-                    <span class="sample-lock">📲 Débloquer l'assistant sur Store</span>
+                    <span class="sample-lock sample-lock-stores"><a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank" rel="noopener"><i class="fab fa-apple"></i> App Store</a><span class="sample-lock-sep">·</span><a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank" rel="noopener"><i class="fab fa-google-play"></i> Google Play</a></span>
                 </article>
             </div>
         </div>
@@ -752,7 +788,7 @@
             </div>
         </div>
 
-        <div class="store-buttons">
+        <div id="store-links" class="store-buttons">
             <a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank"
                 class="btn-store apple"><i class="fab fa-apple" style="font-size: 1.5rem;"></i> App Store</a>
             <a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank"
@@ -849,18 +885,18 @@
             <div class="samples-grid">
                 <article class="sample-card">
                     <div class="sample-q">« Compare Bukayo Saka et Lamine Yamal cette saison »</div>
-                    <p class="sample-a">Benchmark poste par poste calculé sur nos données vérifiées : passes clés, xA/90 min, dribbles réussis et percentiles comparés au Top 5 européen.</p>
-                    <span class="sample-lock">🔒 Radar interactif complet dans l'app</span>
+                    <p class="sample-a">Benchmark poste par poste calculé sur nos données vérifiées : buts, passes décisives, passes clés, dribbles réussis et percentiles comparés au Top 5 européen.</p>
+                    <a href="#store-links" class="sample-lock">📊 Radar interactif dans l'app</a>
                 </article>
                 <article class="sample-card">
                     <div class="sample-q">« Points clés d'avant-match : PSG vs Marseille »</div>
                     <p class="sample-a">Tendances récentes à domicile/extérieur, efficacité xG, intensité dans le dernier quart d'heure et ratios tactiques disponibles avant le coup d'envoi.</p>
-                    <span class="sample-lock">⚡ Actualisé chaque heure sur iOS &amp; Android</span>
+                    <a href="#store-links" class="sample-lock">⚡ MàJ horaire · iOS &amp; Android</a>
                 </article>
                 <article class="sample-card">
-                    <div class="sample-q">« Top buteurs d'Europe sur coup franc depuis 2016 »</div>
+                    <div class="sample-q">« Top buteurs en Ligue des Champions depuis 2016 »</div>
                     <p class="sample-a">Requête historique multi-saisons sans hallucination accompagnée d'un classement visuel exportable en image.</p>
-                    <span class="sample-lock">📲 Débloquer l'assistant sur Store</span>
+                    <span class="sample-lock sample-lock-stores"><a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank" rel="noopener"><i class="fab fa-apple"></i> App Store</a><span class="sample-lock-sep">·</span><a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank" rel="noopener"><i class="fab fa-google-play"></i> Google Play</a></span>
                 </article>
             </div>`,
                 "label-docs-app": "Documentation de l'application",
@@ -929,18 +965,18 @@
             <div class="samples-grid">
                 <article class="sample-card">
                     <div class="sample-q">"Compare Bukayo Saka and Lamine Yamal this season"</div>
-                    <p class="sample-a">Same-position benchmark computed on verified data: key passes, xA/90, completed dribbles, and Big-5 European league percentiles.</p>
-                    <span class="sample-lock">🔒 Full interactive radar inside the app</span>
+                    <p class="sample-a">Same-position benchmark computed on verified data: goals, assists, key passes, completed dribbles, and Big-5 European league percentiles.</p>
+                    <a href="#store-links" class="sample-lock">📊 Interactive radar in app</a>
                 </article>
                 <article class="sample-card">
                     <div class="sample-q">"Pre-match key points: Arsenal vs Chelsea"</div>
                     <p class="sample-a">Home/away form splits, xG clinical efficiency, late-game scoring trends, and pre-kickoff tactical insights refreshed hourly.</p>
-                    <span class="sample-lock">⚡ Refreshed hourly on iOS &amp; Android</span>
+                    <a href="#store-links" class="sample-lock">⚡ Hourly sync · iOS &amp; Android</a>
                 </article>
                 <article class="sample-card">
-                    <div class="sample-q">"Top European free-kick scorers since 2016"</div>
+                    <div class="sample-q">"Top Champions League scorers since 2016"</div>
                     <p class="sample-a">Multi-season hallucination-free query paired with a shareable dark-mode comparison chart.</p>
-                    <span class="sample-lock">📲 Unlock full AI chat on mobile</span>
+                    <span class="sample-lock sample-lock-stores"><a href="https://apps.apple.com/us/app/ask-tikistata-football-ai/id6759181568" target="_blank" rel="noopener"><i class="fab fa-apple"></i> App Store</a><span class="sample-lock-sep">·</span><a href="https://play.google.com/store/apps/details?id=com.asktikistata.app" target="_blank" rel="noopener"><i class="fab fa-google-play"></i> Google Play</a></span>
                 </article>
             </div>`,
                 "label-docs-app": "Application documentation",
