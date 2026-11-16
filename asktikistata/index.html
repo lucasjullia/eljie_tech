@@ -520,6 +520,53 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .samples-section {
+            max-width: 950px;
+            margin: 10px auto 38px;
+            text-align: left;
+        }
+
+        .samples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-top: 18px;
+        }
+
+        .sample-card {
+            background: linear-gradient(160deg, rgba(20, 22, 42, 0.85), rgba(10, 10, 20, 0.92));
+            border: 1px solid rgba(139, 48, 193, 0.35);
+            border-radius: 18px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .sample-q {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .sample-a {
+            font-size: 0.88rem;
+            color: #c2c6d4;
+            line-height: 1.5;
+        }
+
+        .sample-lock {
+            margin-top: auto;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: #f432a5;
+            background: rgba(244, 50, 165, 0.12);
+            border: 1px solid rgba(244, 50, 165, 0.3);
+            padding: 5px 10px;
+            border-radius: 999px;
+            align-self: flex-start;
+        }
     </style>
 </head>
 
@@ -593,6 +640,29 @@
                         alt="Trophées et Badges">
                     <div class="screenshot-caption" id="cap-4">Trophées & Badges</div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Aperçu SEO limité (vitrine statique sans assistant libre) -->
+        <div class="samples-section" id="seo-samples-container">
+            <h3 style="color: #fff; font-size: 1.4rem; margin-bottom: 6px; text-align: center;">Exemples d'analyses vérifiées (aperçu statique)</h3>
+            <p style="color: #a0a0b0; font-size: 0.95rem; text-align: center;">Trois extraits issus de nos bases historiques (2015–aujourd'hui). L'assistant complet, les graphiques interactifs et le quiz 60s sont réservés à l'app mobile.</p>
+            <div class="samples-grid">
+                <article class="sample-card">
+                    <div class="sample-q">« Compare Bukayo Saka et Lamine Yamal cette saison »</div>
+                    <p class="sample-a">Benchmark poste par poste calculé sur nos données vérifiées : passes clés, xA/90 min, dribbles réussis et percentiles comparés au Top 5 européen.</p>
+                    <span class="sample-lock">🔒 Radar interactif complet dans l'app</span>
+                </article>
+                <article class="sample-card">
+                    <div class="sample-q">« Points clés d'avant-match : PSG vs Marseille »</div>
+                    <p class="sample-a">Tendances récentes à domicile/extérieur, efficacité xG, intensité dans le dernier quart d'heure et ratios tactiques disponibles avant le coup d'envoi.</p>
+                    <span class="sample-lock">⚡ Actualisé chaque heure sur iOS &amp; Android</span>
+                </article>
+                <article class="sample-card">
+                    <div class="sample-q">« Top buteurs d'Europe sur coup franc depuis 2016 »</div>
+                    <p class="sample-a">Requête historique multi-saisons sans hallucination accompagnée d'un classement visuel exportable en image.</p>
+                    <span class="sample-lock">📲 Débloquer l'assistant sur Store</span>
+                </article>
             </div>
         </div>
 
@@ -774,6 +844,25 @@
                 Chaque jour, testez votre culture foot avec 4 formats de quiz captivants : parcours de carrière, fiche profil joueur, QCM à 4 choix et défi vrai/faux. Réussir 2 jours consécutifs vous fait gagner 1 question bonus offerte à poser à l'IA !</p>
                 <p style="margin-top: 15px;"><strong>L'application est-elle gratuite ?</strong><br>
                 Oui ! TikiStata 2.0 est téléchargeable gratuitement sur l'App Store (iOS) et Google Play Store (Android). L'application propose une formule gratuite avec quotas journaliers. Pour aller plus loin sans publicité, deux formules d'abonnements sans engagement avec 7 jours d'essai gratuit (mensuel ou annuel) sont disponibles : <strong>Captain</strong> (1,99€/mois ou 17,99€/an pour 15 questions/jour et 5 interactions par discussion) et <strong>Legend</strong> (2,99€/mois ou 26,99€/an pour 30 questions/jour et 7 interactions par discussion), ainsi qu'un <strong>pack de 15 questions one-shot</strong> à 0,99€.</p>`,
+                "seo-samples-container": `<h3 style="color: #fff; font-size: 1.4rem; margin-bottom: 6px; text-align: center;">Exemples d'analyses vérifiées (aperçu statique)</h3>
+            <p style="color: #a0a0b0; font-size: 0.95rem; text-align: center;">Trois extraits issus de nos bases historiques (2015–aujourd'hui). L'assistant complet, les graphiques interactifs et le quiz 60s sont réservés à l'app mobile.</p>
+            <div class="samples-grid">
+                <article class="sample-card">
+                    <div class="sample-q">« Compare Bukayo Saka et Lamine Yamal cette saison »</div>
+                    <p class="sample-a">Benchmark poste par poste calculé sur nos données vérifiées : passes clés, xA/90 min, dribbles réussis et percentiles comparés au Top 5 européen.</p>
+                    <span class="sample-lock">🔒 Radar interactif complet dans l'app</span>
+                </article>
+                <article class="sample-card">
+                    <div class="sample-q">« Points clés d'avant-match : PSG vs Marseille »</div>
+                    <p class="sample-a">Tendances récentes à domicile/extérieur, efficacité xG, intensité dans le dernier quart d'heure et ratios tactiques disponibles avant le coup d'envoi.</p>
+                    <span class="sample-lock">⚡ Actualisé chaque heure sur iOS &amp; Android</span>
+                </article>
+                <article class="sample-card">
+                    <div class="sample-q">« Top buteurs d'Europe sur coup franc depuis 2016 »</div>
+                    <p class="sample-a">Requête historique multi-saisons sans hallucination accompagnée d'un classement visuel exportable en image.</p>
+                    <span class="sample-lock">📲 Débloquer l'assistant sur Store</span>
+                </article>
+            </div>`,
                 "label-docs-app": "Documentation de l'application",
                 "label-privacy": "Confidentialité", "label-cgu": "CGU", "label-cgv": "CGV",
                 "contact-label": "Contact professionnel :",
@@ -835,6 +924,25 @@
                 Test your football IQ daily with 4 trivia formats: Career Path Mystery, Player Profile Card, 4-choice Stat MCQ, and Over/Under True/False. Get 2 correct answers in a row to earn 1 free bonus question for the AI!</p>
                 <p style="margin-top: 15px;"><strong>Is the app free?</strong><br>
                 Yes! TikiStata 2.0 is free to download on the App Store (iOS) and Google Play Store (Android). You can enjoy a free plan with daily quotas. To go further without ads, two flexible subscriptions with a 7-day free trial (monthly or annual) and no commitment are available: <strong>Captain</strong> (€1.99/month or €17.99/year for 15 questions/day and 5 turns per discussion) and <strong>Legend</strong> (€2.99/month or €26.99/year for 30 questions/day and 7 turns per discussion), as well as a <strong>15-question one-shot pack</strong> for €0.99.</p>`,
+                "seo-samples-container": `<h3 style="color: #fff; font-size: 1.4rem; margin-bottom: 6px; text-align: center;">Verified Analysis Samples (Static Preview)</h3>
+            <p style="color: #a0a0b0; font-size: 0.95rem; text-align: center;">Three static snapshots from our 2015–present datasets. Full conversational queries, interactive charts, and the 60s Daily Quiz require the mobile app.</p>
+            <div class="samples-grid">
+                <article class="sample-card">
+                    <div class="sample-q">"Compare Bukayo Saka and Lamine Yamal this season"</div>
+                    <p class="sample-a">Same-position benchmark computed on verified data: key passes, xA/90, completed dribbles, and Big-5 European league percentiles.</p>
+                    <span class="sample-lock">🔒 Full interactive radar inside the app</span>
+                </article>
+                <article class="sample-card">
+                    <div class="sample-q">"Pre-match key points: Arsenal vs Chelsea"</div>
+                    <p class="sample-a">Home/away form splits, xG clinical efficiency, late-game scoring trends, and pre-kickoff tactical insights refreshed hourly.</p>
+                    <span class="sample-lock">⚡ Refreshed hourly on iOS &amp; Android</span>
+                </article>
+                <article class="sample-card">
+                    <div class="sample-q">"Top European free-kick scorers since 2016"</div>
+                    <p class="sample-a">Multi-season hallucination-free query paired with a shareable dark-mode comparison chart.</p>
+                    <span class="sample-lock">📲 Unlock full AI chat on mobile</span>
+                </article>
+            </div>`,
                 "label-docs-app": "Application documentation",
                 "label-privacy": "Privacy Policy", "label-cgu": "Terms of Use", "label-cgv": "Terms of Sale",
                 "contact-label": "Business contact:",
@@ -868,7 +976,7 @@
                 if (el) {
                     if (el.tagName === 'META') {
                         el.setAttribute('content', translations[lang][id]);
-                    } else if (id === 'app-long-desc') {
+                    } else if (id === 'app-long-desc' || id === 'seo-samples-container') {
                         el.innerHTML = translations[lang][id];
                     } else {
                         el.innerText = translations[lang][id];
